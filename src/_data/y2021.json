@@ -1,0 +1,40 @@
+{
+    "es": "es20",
+    "te": "te19",
+    "year": 2021,
+    "theme": "Vinterspel",
+    "games": [
+        {
+            "team": "teamname",
+            "creator": "creator",
+            "game": {
+                "title": "title",
+                "description": "description",
+                "image": "image",
+                "url": "something-something.netlify.app",
+                "git": "github.com/user/repo"
+            }
+        },
+        {
+            "team": "teamname",
+            "creator": "creator",
+            "game": {
+                "title": "title",
+                "description": "description",
+                "image": "image",
+                "url": "something-something.netlify.app",
+                "git": "github.com/user/repo"
+            }
+        }
+    ],
+    "teams": [
+        {
+            "team": "teamname",
+            "members": "nisse, frans, leia"
+        },
+        {
+            "team": "teamname",
+            "members": "nisse, frans, leia"
+        }
+    ]
+}

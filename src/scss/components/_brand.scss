@@ -1,0 +1,13 @@
+@use "sass:map";
+@use "../config" as config;
+
+.brand {
+    text-decoration: none;
+    img, span{
+        vertical-align: middle;
+    }
+    .material-icons {
+        font-size: map.get(config.$scale, 200);
+        line-height: inherit;
+    }
+}

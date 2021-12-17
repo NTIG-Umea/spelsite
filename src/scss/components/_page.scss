@@ -1,0 +1,20 @@
+@use "sass:map";
+@use "../config" as config;
+
+.page {
+    width: 100%;
+    margin-bottom: map.get(config.$scale, 400);
+    &__heading {
+        text-transform: uppercase;
+        font-size: map.get(config.$scale, 400);
+        word-break: break-all;
+        hyphens: auto;
+        background-color: var(--color-primary);
+        color: var(--color-dark);
+        padding-top: map.get(config.$scale, 300);
+        padding-bottom: map.get(config.$scale, 300);
+    }
+    &__content {
+        margin-top: map.get(config.$scale, 100);
+    }
+}
