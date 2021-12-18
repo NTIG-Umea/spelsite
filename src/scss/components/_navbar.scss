@@ -16,11 +16,6 @@
         border: none;
         background-color: transparent;
 
-        .material-icons {
-            font-size: map.get(config.$scale, 200);
-            line-height: inherit;
-        }
-
         @media (min-width: map.get(config.$breakpoints, "md")) {
             display: none;
         }
@@ -41,10 +36,7 @@
         align-items: center;
         padding: map.get(config.$scale, 100) map.get(config.$scale, 0);
 
-        justify-content: left;
+        justify-content: space-between;
         flex-wrap: wrap;
-        @media (max-width: map.get(config.$breakpoints, "md")) {
-            justify-content: space-between;
-        }
     }
 }

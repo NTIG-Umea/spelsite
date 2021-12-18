@@ -15,22 +15,24 @@ window.addEventListener('load', (event) => {
 
     // skapa en listener på knappen och bind den till eventet "click"
     // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        collapse.classList.toggle('navbar__collapse-show');
+    button.addEventListener(
+        'click',
+        (e) => {
+            e.preventDefault();
+            collapse.classList.toggle('navbar__collapse-show');
 
-        // Om du vill byta ikonen för hamburgermeny eller färger så kan du göra det här.
-        // antingen genom att manipulera klasser eller DOM
-        // https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
-        // https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
-
-    }, false);
+            // Om du vill byta ikonen för hamburgermeny eller färger så kan du göra det här.
+            // antingen genom att manipulera klasser eller DOM
+            // https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+            // https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+        },
+        false
+    );
 
     const mql = window.matchMedia('(max-width: 768px)');
     mql.addEventListener('change', (e) => {
         if (!e.matches && collapse.classList[1] == 'navbar__collapse-show') {
             collapse.classList.toggle('navbar__collapse-show');
         }
-    })
-
+    });
 });

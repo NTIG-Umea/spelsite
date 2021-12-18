@@ -1,0 +1,19 @@
+---
+layout: games.njk
+---
+
+<main id="main-content" class="page container">
+    <header class="page__hero flow">
+        <h1 class="page__heading bleed">
+            <div class="container">
+                {{ title }} - {{ y2021.theme }}
+            </div>
+        </h1>
+    </header>
+    <section class="page__content flow">
+    {% set teams = y2021.teams %}
+    {% for game in y2021.games | gameData %}
+        {{ game | dump }}
+    {% endfor %}
+    </section>
+</main>

@@ -1,6 +1,5 @@
 {
-    "es": "es20",
-    "te": "te19",
+    "classes": ["estet", "teknik"],
     "year": 2021,
     "theme": "Vinterspel",
     "games": [
@@ -33,7 +32,7 @@
             "members": "nisse, frans, leia"
         },
         {
-            "team": "teamname",
+            "team": "otherteam",
             "members": "nisse, frans, leia"
         }
     ]
