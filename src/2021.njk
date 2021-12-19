@@ -10,11 +10,11 @@ layout: games.njk
         {% set teams = y2021.teams %}
         <section class="gamecards">
             {% for game in y2021.games %}
-                <article class="gamecard">
+                <article class="gamecard flow">
                     <img 
                         src="/img/{{ year }}/{{ game.team }}/{{ game.image }}"
                         alt="Skärmdump av spelet {{ game.title }}.">
-                    <header">
+                    <header>
                         <h3>
                             {{ game.title }}
                         </h3>
