@@ -1,29 +1,57 @@
 {
-    "classes": ["estet", "teknik"],
+    "classes": ["es19", "te20"],
     "year": 2021,
     "theme": "Vinterspel",
     "games": [
         {
             "team": "teamname",
-            "creator": "creator",
-            "game": {
-                "title": "title",
-                "description": "description",
-                "image": "image",
-                "url": "something-something.netlify.app",
-                "git": "github.com/user/repo"
-            }
+            "creator": "Elliot Thuren",
+            "title": "Somer Himpson",
+            "description": "description",
+            "image": "elliot-t.png",
+            "url": "https://vinterspel-somerhimpson.netlify.app/",
+            "git": "https://github.com/NTIG-Umea/wu2-spel-ElliotThuren",
+            "survey": ""
         },
         {
             "team": "teamname",
-            "creator": "creator",
-            "game": {
-                "title": "title",
-                "description": "description",
-                "image": "image",
-                "url": "something-something.netlify.app",
-                "git": "github.com/user/repo"
-            }
+            "creator": "Name Name",
+            "title": "Game game",
+            "description": "description",
+            "image": "screenshot.png",
+            "url": "netlify.app",
+            "git": "git git",
+            "survey": ""
+        },
+        {
+            "team": "teamname",
+            "creator": "Name Name",
+            "title": "Game game",
+            "description": "description",
+            "image": "screenshot.png",
+            "url": "netlify.app",
+            "git": "git git",
+            "survey": ""
+        },
+        {
+            "team": "teamname",
+            "creator": "Name Name",
+            "title": "Game game",
+            "description": "description",
+            "image": "screenshot.png",
+            "url": "netlify.app",
+            "git": "git git",
+            "survey": ""
+        },
+        {
+            "team": "teamname",
+            "creator": "Name Name",
+            "title": "Game game",
+            "description": "description",
+            "image": "screenshot.png",
+            "url": "netlify.app",
+            "git": "git git",
+            "survey": ""
         }
     ],
     "teams": [

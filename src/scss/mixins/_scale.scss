@@ -33,7 +33,7 @@
         0: $size,
     );
     $prev: $size;
-    @for $i from 1 to 10 {
+    @for $i from 1 to 15 {
         $prev: $prev * $scale;
         $pos: map.set($pos, $i * 100, $prev);
     }

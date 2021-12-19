@@ -1,9 +1,7 @@
 const fs = require('fs');
 
-const gameData = (game, year) => {
-    // const gameData = JSON.parse(fs.readFileSync(`./src/_data/y${year}.json`));
-    console.log(game);
-    return game;
+const getTeam = (teams, teamname) => {
+    return teams.filter(t => t.team === teamname);
 };
 
-module.exports = { gameData };
+module.exports = { getTeam };

@@ -270,10 +270,6 @@ h3 {
   border: none;
   background-color: transparent;
 }
-.navbar__toggle .material-icons {
-  font-size: 1.776889rem;
-  line-height: inherit;
-}
 @media (min-width: 48rem) {
   .navbar__toggle {
     display: none;
@@ -351,6 +347,24 @@ h3 {
 }
 .dropdown__item:hover {
   box-shadow: 0px 2px 4px 0px var(--color-shadow);
+}
+
+.gamecards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gamecard {
+  flex: 0 1 calc(50% - 1.333rem);
+  min-width: 13.2883587604rem;
+  width: 100%;
+  margin-bottom: 1.333rem;
+}
+@media (max-width: 36rem) {
+  .gamecard {
+    flex: 1 1 100%;
+  }
 }
 
 body {
