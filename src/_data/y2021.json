@@ -76,12 +76,21 @@
             "git": "gitgit"
         },
         {
-            "team": "te4 teamname",
-            "creators": ["Name Name", "Name Name"],
-            "title": "Game game",
-            "description": "description",
+            "team": "TE4 Krampus Grabbarna",
+            "creators": ["Allan Bäckman", "Christian Berggren Bäckstrom "],
+            "title": "Katch Krampus",
+            "description": "ÅH NEJ! Krampus har krånglat till julen genom att sno alla paket. Det är upp till dig att sammla ihop klapparna och rädda julen",
             "image": "screenshot.png",
-            "url": "netlify.app",
+            "url": "https://christianbackan.itch.io/catch-krampus",
+            "git": "git git"
+        },
+        {
+            "team": "TE4 VadSomHelst",
+            "creators": ["Alexander Holmström", "Filip Norberg"],
+            "title": "Toast Evolution 2.0",
+            "description": "Pressa ihop toast för att vinna och rädda frukosten på julaftonen.",
+            "image": "vadsomhelst.png",
+            "url": "https://iamtoasst.itch.io/toast-evolution-2",
             "git": "git git"
         }
     ],
@@ -103,7 +112,7 @@
         },
         {
             "team": "Furious Zebras",
-            "members": ["Oliver",  "Jacob", "Joel", "Milton", "William","Tony"],
+            "members": ["Oliver", "Jacob", "Joel", "Milton", "William", "Tony"],
             "concept": "url"
         },
         {
