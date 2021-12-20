@@ -17,32 +17,12 @@ layout: games.njk
             som tillsammans ansvarade för att skapa spelens koncept. Efter det fick
             eleverna individuella uppdrag i att skapa spel, eller delar av spel.
         </p>
-        <p class="lead">Vi fick även sällskap av årets Gymnasieingenjörer.</p>
+        <p class="lead">Vi fick även sällskap av årets 
+            <a href="https://www.ntigymnasiet.se/program/mjukvarudesign/umea/">Gymnasieingenjörer</a>.</p>
         {% set teams = y2021.teams %}
         <section class="gamecards">
             {% for game in y2021.games %}
-                <article class="gamecard flow">
-                    <img 
-                        src="/img/{{ year }}/{{ game.team }}/{{ game.image }}"
-                        alt="Skärmdump av spelet {{ game.title }}.">
-                    <header>
-                        <h3>
-                            {{ game.title }}
-                        </h3>
-                        <p>Skapat av: {{ game.creators | getCreators }}</p>
-                    </header>
-                    <p>
-                        {{ game.description }}
-                    </p>
-                    {% set team = teams | getTeam(game.team) %}
-                    <p>{{ team.team }} består av: <span>{{ team.members }}</span></p>
-                    <p>
-                        Koden finns på <a href="{{ game.git }}" target="_blank">GitHub</a>.
-                    </p>
-                    <footer>
-                        <a class="button button-link" href="{{ game.url }}" target="_blank">Spela</a>
-                    </footer>
-                </article>
+            {% include 'components/game-card.njk' %}
             {% endfor %}
         </section>
     </section>

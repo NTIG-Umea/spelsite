@@ -12,7 +12,7 @@
 @use "type";
 @use "components/footer";
 @use "components/page";
-// @use "components/brand";
+@use "components/button";
 @use "components/navbar";
 @use "components/nav";
 @use "components/dropdown";
@@ -49,11 +49,6 @@ a {
 }
 
 ::selection {
-    background-color: var(--color-selection);
-    color: var(--color-on-selection);
-}
-
-::-moz-selection {
     background-color: var(--color-selection);
     color: var(--color-on-selection);
 }

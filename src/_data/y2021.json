@@ -4,44 +4,76 @@
     "theme": "Vinterspel",
     "games": [
         {
-            "team": "teamname",
+            "team": "Kung-fu Bananas",
             "creators": "Elliot Thuren",
             "title": "Somer Himpson",
             "description": "description",
             "image": "elliot-t.png",
             "url": "https://vinterspel-somerhimpson.netlify.app/",
-            "git": "https://github.com/NTIG-Umea/wu2-spel-ElliotThuren",
-            "survey": ""
+            "git": "https://github.com/NTIG-Umea/wu2-spel-ElliotThuren"
+        },
+        {
+            "team": "Krulliga surfarna",
+            "creators": "Liam Murphy",
+            "title": "Julbordsskandalen",
+            "description": "Julbordsskandalen är ett spel där du samlar mat för ditt julbord. Under samlandet så behöver du akta dig för istappar som regnar ner snabbare och snabbare.",
+            "image": "liam-m.png",
+            "url": "https://julbordsskandalen.netlify.app/",
+            "git": "https://github.com/NTIG-Umea/wu2-spel-Demarcily"
+        },
+        {
+            "team": "Krulliga surfarna",
+            "creators": "Tim Lundström",
+            "title": "Julbordsskandalen",
+            "description": "Någon har glömt att köpa julmat, vilken katastrof! Ditt uppdrag är att samla så mycket mat som du kan och få så många poäng som möjligt!",
+            "image": "tim-l.png",
+            "url": "https://wizardly-ritchie-bb9bea.netlify.app/",
+            "git": "https://github.com/NTIG-Umea/wu2-spel-Kloska"
+        },
+        {
+            "team": "Ultra Stars",
+            "creators": "Emil Åsbringer",
+            "title": "The Zunerts Chronicles",
+            "description": "Hjälp Fiskslukarn Bengtson ta sig till Zunertsfabriken och belöna NTI elever med smasksig julvätska.",
+            "image": "emil-3.png",
+            "url": "https://zunertschronicles.netlify.app/",
+            "git": "https://github.com/emilasbringer/phasertilemap"
+        },
+        {
+            "team": "Ultra Stars",
+            "creators": "Rasmus Gullerfelt",
+            "title": "Zunerts Chronicles",
+            "description": "Hjälp fiskslukarn Bengtson ta sig till Zunertsfabriken.",
+            "image": "rasmus-g.png",
+            "url": "https://learntoski.netlify.app/",
+            "git": "https://github.com/sumsar8/tilemap"
+        },
+        {
+            "team": "Ultra Stars",
+            "creators": "Filip Andersson",
+            "title": "Zenarts Chronicles",
+            "description": "Spamma för att vinna! Pingvinen måste ta sig till Zenartsfabriken innan han fryser ihjäl.",
+            "image": "filip-a.png",
+            "url": "https://zenartschronicles.netlify.app ",
+            "git": "https://github.com/filipandersson3/spel "
+        },
+        {
+            "team": "Furious Zebras",
+            "creators": "Oliver Lundqvist",
+            "title": "Tomtenissens Revenge",
+            "description": "Du är en nisse som gått rogue för att slå emot tomtens hemska arbetsvillkor. Var den som förändrar livet hos alla nissar eller bli en av dem många som misslyckats innan dig.",
+            "image": "oliver-l.png",
+            "url": "https://tomtenissens-revenge.netlify.app/",
+            "git": "https://github.com/NTIG-Umea/wu2-spel-Snubb"
         },
         {
             "team": "teamname",
-            "creators": "Name Name",
-            "title": "Game game",
+            "creators": "person",
+            "title": "game",
             "description": "description",
             "image": "screenshot.png",
-            "url": "netlify.app",
-            "git": "git git",
-            "survey": ""
-        },
-        {
-            "team": "teamname",
-            "creators": "Name Name",
-            "title": "Game game",
-            "description": "description",
-            "image": "screenshot.png",
-            "url": "netlify.app",
-            "git": "git git",
-            "survey": ""
-        },
-        {
-            "team": "teamname",
-            "creators": "Name Name",
-            "title": "Game game",
-            "description": "description",
-            "image": "screenshot.png",
-            "url": "netlify.app",
-            "git": "git git",
-            "survey": ""
+            "url": "netlify",
+            "git": "gitgit"
         },
         {
             "team": "te4 teamname",
@@ -50,19 +82,28 @@
             "description": "description",
             "image": "screenshot.png",
             "url": "netlify.app",
-            "git": "git git",
-            "survey": ""
+            "git": "git git"
         }
     ],
     "teams": [
         {
-            "team": "teamname",
-            "members": ["Frans, Leia, Nisse"],
+            "team": "Krulliga surfarna",
+            "members": ["Liam", "Emil", "Noah", "Isac", "Tim"],
             "concept": "url"
         },
         {
-            "team": "otherteam",
-            "members": ["Jenny, Klas, Stefan"],
+            "team": "Kung-fu Bananas",
+            "members": ["Jenny", "Klas", "Stefan"],
+            "concept": "url"
+        },
+        {
+            "team": "Ultra Stars",
+            "members": ["Emil", "Rasmus", "Isak", "Filip", "Anton", "Mattias"],
+            "concept": "url"
+        },
+        {
+            "team": "Furious Zebras",
+            "members": ["Oliver",  "Jacob", "Joel", "Milton", "William","Tony"],
             "concept": "url"
         },
         {
