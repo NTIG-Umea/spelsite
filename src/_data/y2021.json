@@ -2,7 +2,6 @@
     "classes": ["es19", "te20", "te4"],
     "year": 2021,
     "theme": "Vinterspel",
-    "engine": "Phaser 3",
     "games": [
         {
             "team": "Kung-fu Bananas",
@@ -77,13 +76,20 @@
             "git": "gitgit"
         },
         {
-            "team": "te4 teamname",
-            "creators": ["Name Name", "Name Name"],
-            "title": "Game game",
-            "description": "description",
+            "team": "Te4 Krampus Grabbarna",
+            "creators": ["Allan Bäckman", "Christian Berggren Bäckstrom"],
+            "title": "Katch Krampus",
+            "description": "ÅH NEJ! Krampus har krånglat till julen genom att sno alla paket. Det är upp till dig att sammla ihop klapparna och rädda julen",
             "image": "screenshot.png",
-            "url": "netlify.app",
-            "git": "git git"
+            "url": "https://christianbackan.itch.io/catch-krampus"
+        },
+        {
+            "team": "Te4 VadSomHelst",
+            "creators": ["Alexander Holmström", "Filip Norberg"],
+            "title": "Toast Evolution 2.0",
+            "description": "Pressa ihop toast för att vinna och rädda frukosten på julaftonen.",
+            "image": "vadsomhelst.png",
+            "url": "https://iamtoasst.itch.io/toast-evolution-2"
         }
     ],
     "teams": [
@@ -104,12 +110,17 @@
         },
         {
             "team": "Furious Zebras",
-            "members": ["Oliver",  "Jacob", "Joel", "Milton", "William","Tony"],
+            "members": ["Oliver", "Jacob", "Joel", "Milton", "William", "Tony"],
             "concept": "url"
         },
         {
-            "team": "te4 teamname",
-            "members": ["Anna, Frank"],
+            "team": "Te4 Krampus Grabbarna",
+            "members": ["Allan Bäckman", "Christian Berggren Bäckstrom"],
+            "concept": "url"
+        },
+        {
+            "team": "Te4 VadSomHelst",
+            "members": ["Alexander Holmström", "Filip Norberg"],
             "concept": "url"
         }
     ]

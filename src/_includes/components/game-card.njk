@@ -18,7 +18,9 @@
         <p>Konceptet är utvecklat av <span class="gamecard__teamname">
             {{ team.team }}</span>: 
             <span>{{ team.members | listCreators }}</span>.</p>
+        {% if game.git %}
         <p>Koden finns på <a href="{{ game.git }}" target="_blank">GitHub</a>.</p>
+        {% endif %}
     </div>
     <footer>
         <a class="button button-link" href="{{ game.url }}" target="_blank">Spela {{ game.title }}</a>
