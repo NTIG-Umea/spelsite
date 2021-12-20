@@ -18,4 +18,8 @@
     // @media (min-width: map.get(config.$breakpoints, "lg")) {
     //     flex: 0 1 calc(33.333% - map.get(config.$scale, 100));
     // }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
 }

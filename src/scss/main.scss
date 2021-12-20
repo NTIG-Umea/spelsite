@@ -49,8 +49,8 @@ a {
 }
 
 ::selection {
-    background-color: var(--color-selection);
-    color: var(--color-on-selection);
+    background-color: var(--color-primary);
+    color: var(--color-light);
 }
 
 .updates__list {

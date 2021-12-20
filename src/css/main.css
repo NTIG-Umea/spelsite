@@ -274,12 +274,26 @@ h3 {
   letter-spacing: 0.1003133663rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 36ch;
 }
 .button:hover {
   color: var(--color-grey);
   text-decoration: none;
   border-color: var(--color-grey-dark);
   box-shadow: 0 0 0 0.3167228541rem var(--color-shadow);
+}
+.button--like {
+  background-color: inherit;
+  border: 1px solid var(--color-bg);
+  color: var(--color-secondary);
+}
+.button--like:hover {
+  color: var(--color-secondary);
+  box-shadow: none;
+  border-color: var(--color-bg);
 }
 
 .navbar {
@@ -390,6 +404,10 @@ h3 {
     flex: 1 1 100%;
   }
 }
+.gamecard footer {
+  display: flex;
+  justify-content: space-between;
+}
 
 body {
   display: flex;
@@ -418,8 +436,8 @@ a:hover {
 }
 
 ::selection {
-  background-color: var(--color-selection);
-  color: var(--color-on-selection);
+  background-color: var(--color-primary);
+  color: var(--color-light);
 }
 
 .updates__list {

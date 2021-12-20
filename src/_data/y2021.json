@@ -7,7 +7,7 @@
             "team": "Kung-fu Bananas",
             "creators": "Elliot Thuren",
             "title": "Somer Himpson",
-            "description": "description",
+            "description": "Ät donuts och akta dig för spikar i spelet Somer Himpson!",
             "image": "elliot-t.png",
             "url": "https://vinterspel-somerhimpson.netlify.app/",
             "git": "https://github.com/NTIG-Umea/wu2-spel-ElliotThuren"
@@ -67,31 +67,47 @@
             "git": "https://github.com/NTIG-Umea/wu2-spel-Snubb"
         },
         {
-            "team": "teamname",
-            "creators": "person",
-            "title": "game",
-            "description": "description",
-            "image": "screenshot.png",
-            "url": "netlify",
-            "git": "gitgit"
+            "team": "Kung-fu Bananas",
+            "creators": "Adam Lagerqvist",
+            "title": "The game",
+            "description": "So you are on a train right and then you shoot enemies for som reason and they might shoot back if you are unlucky.",
+            "image": "adam-l.png",
+            "url": "https://priceless-hypatia-55e5a1.netlify.app/",
+            "git": "https://github.com/AdamLagerqvist/spelet"
         },
         {
-            "team": "TE4 Krampus Grabbarna",
-            "creators": ["Allan Bäckman", "Christian Berggren Bäckstrom "],
+            "team": "Furious Zebras",
+            "creators": "Milton Lund",
+            "title": "Utan titel",
+            "description": "Du är en nisse som gått rogue på färd för att slå emot tomtens hemska arbetsvillkor med enbart tiden som kan slå emot.",
+            "image": "milton-l.png",
+            "url": "https://agitated-murdock-948596.netlify.app",
+            "git": "https://github.com/NTIG-Umea/wu2-spel-miltonlundte19"
+        },
+        {
+            "team": "Kung-fu Bananas",
+            "creators": "Marcus Nylund",
+            "title": "THE (Ermmm ehh eehhh Movie) THE GAME",
+            "description": "Skjuta, Panga, Poffa Spelet där man trycker på knappar för att göra saker.",
+            "image": "marcus-n.png",
+            "url": "https://theermmehheehhhmoviethegame.netlify.app/",
+            "git": "https://github.com/NTIG-Umea/wu2-spel-marc0-03"
+        },
+        {
+            "team": "Te4 Krampus Grabbarna",
+            "creators": ["Allan Bäckman", "Christian Berggren Bäckstrom"],
             "title": "Katch Krampus",
             "description": "ÅH NEJ! Krampus har krånglat till julen genom att sno alla paket. Det är upp till dig att sammla ihop klapparna och rädda julen",
-            "image": "screenshot.png",
-            "url": "https://christianbackan.itch.io/catch-krampus",
-            "git": "git git"
+            "image": "krampusgrabbarna.png",
+            "url": "https://christianbackan.itch.io/catch-krampus"
         },
         {
-            "team": "TE4 VadSomHelst",
+            "team": "Te4 VadSomHelst",
             "creators": ["Alexander Holmström", "Filip Norberg"],
             "title": "Toast Evolution 2.0",
             "description": "Pressa ihop toast för att vinna och rädda frukosten på julaftonen.",
             "image": "vadsomhelst.png",
-            "url": "https://iamtoasst.itch.io/toast-evolution-2",
-            "git": "git git"
+            "url": "https://iamtoasst.itch.io/toast-evolution-2"
         }
     ],
     "teams": [
@@ -102,7 +118,7 @@
         },
         {
             "team": "Kung-fu Bananas",
-            "members": ["Jenny", "Klas", "Stefan"],
+            "members": ["Marcus", "Adam", "Elliot", "Matthias", "Tim"],
             "concept": "url"
         },
         {
@@ -116,8 +132,13 @@
             "concept": "url"
         },
         {
-            "team": "te4 teamname",
-            "members": ["Anna, Frank"],
+            "team": "Te4 VadSomHelst",
+            "members": ["Alexander Holmström", "Filip Norberg"],
+            "concept": "url"
+        },
+        {
+            "team": "Te4 Krampus Grabbarna",
+            "members": ["Allan Bäckman", "Christian Berggren Bäckstrom"],
             "concept": "url"
         }
     ]
