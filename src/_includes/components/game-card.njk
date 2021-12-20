@@ -19,7 +19,9 @@
         <p>Konceptet är utvecklat av <strong class="gamecard__teamname">
             {{ team.team }}</strong>: 
             <span>{{ team.members | listCreators }}</span>.</p>
+        {% if game.git %}
         <p>Koden finns på <a href="{{ game.git }}" target="_blank">GitHub</a>.</p>
+        {% endif %}
     </div>
     <footer>
         <button class="button button--like" title="Gilla">❤ 0</button>

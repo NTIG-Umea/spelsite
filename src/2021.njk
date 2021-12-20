@@ -3,9 +3,11 @@ subtitle: Es20 ❤ Te19
 layout: games.njk
 ---
 {% set year = 2021 %}
+{% set theme = y2021.theme %}
+{% set engine = y2021.engine %}
 <main id="main-content" class="page container">
     {% set herotext = title + " - " + y2021.theme %}
-    {% include 'components/hero.njk' %}
+    {% include 'components/games-hero.njk' %}
     <section class="page__content flow">
         <h2>{{ subtitle }}</h2>
         <p class="lead">I år så har de här klasserna sammarbetat för att skapa spel 
@@ -18,7 +20,8 @@ layout: games.njk
             eleverna individuella uppdrag i att skapa spel, eller delar av spel.
         </p>
         <p class="lead">Vi fick även sällskap av årets 
-            <a href="https://www.ntigymnasiet.se/program/mjukvarudesign/umea/">Gymnasieingenjörer</a>.</p>
+            <a href="https://www.ntigymnasiet.se/program/mjukvarudesign/umea/">Gymnasieingenjörer</a> 
+            som ville arbeta med Unity.</p>
         {% set teams = y2021.teams %}
         <section class="gamecards">
             {% for game in y2021.games %}

@@ -257,6 +257,9 @@ h3 {
     font-size: 2.368593037rem;
   }
 }
+.page__heading--wrap {
+  white-space: pre-line;
+}
 .page__content {
   margin-top: 1.333rem;
 }
