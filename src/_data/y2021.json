@@ -1,11 +1,11 @@
 {
-    "classes": ["es19", "te20"],
+    "classes": ["es19", "te20", "te4"],
     "year": 2021,
     "theme": "Vinterspel",
     "games": [
         {
             "team": "teamname",
-            "creator": "Elliot Thuren",
+            "creators": "Elliot Thuren",
             "title": "Somer Himpson",
             "description": "description",
             "image": "elliot-t.png",
@@ -15,7 +15,7 @@
         },
         {
             "team": "teamname",
-            "creator": "Name Name",
+            "creators": "Name Name",
             "title": "Game game",
             "description": "description",
             "image": "screenshot.png",
@@ -25,7 +25,7 @@
         },
         {
             "team": "teamname",
-            "creator": "Name Name",
+            "creators": "Name Name",
             "title": "Game game",
             "description": "description",
             "image": "screenshot.png",
@@ -35,7 +35,7 @@
         },
         {
             "team": "teamname",
-            "creator": "Name Name",
+            "creators": "Name Name",
             "title": "Game game",
             "description": "description",
             "image": "screenshot.png",
@@ -44,8 +44,8 @@
             "survey": ""
         },
         {
-            "team": "teamname",
-            "creator": "Name Name",
+            "team": "te4 teamname",
+            "creators": ["Name Name", "Name Name"],
             "title": "Game game",
             "description": "description",
             "image": "screenshot.png",
@@ -57,11 +57,18 @@
     "teams": [
         {
             "team": "teamname",
-            "members": "nisse, frans, leia"
+            "members": ["Frans, Leia, Nisse"],
+            "concept": "url"
         },
         {
             "team": "otherteam",
-            "members": "nisse, frans, leia"
+            "members": ["Jenny, Klas, Stefan"],
+            "concept": "url"
+        },
+        {
+            "team": "te4 teamname",
+            "members": ["Anna, Frank"],
+            "concept": "url"
         }
     ]
 }

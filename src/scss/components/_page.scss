@@ -5,12 +5,17 @@
     width: 100%;
     margin-bottom: map.get(config.$scale, 400);
     &__heading {
-        text-transform: uppercase;
-        font-size: map.get(config.$scale, 400);
-        word-break: break-all;
-        hyphens: auto;
+        h1 {
+            text-transform: uppercase;
+            font-size: map.get(config.$scale, 400);
+            word-break: break-word;
+            hyphens: auto;
+            @media (max-width: map.get(config.$breakpoints, "sm")) {
+                font-size: map.get(config.$scale, 300);
+            }
+        }
         background-color: var(--color-primary);
-        color: var(--color-dark);
+        color: var(--color-light);
         padding-top: map.get(config.$scale, 300);
         padding-bottom: map.get(config.$scale, 300);
     }

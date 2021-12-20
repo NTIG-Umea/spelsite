@@ -11,9 +11,7 @@
         min-width: map.get(config.$scale, 800);
         background-color: var(--color-bg);
         box-shadow: 0px 8px 16px 0px var(--color-shadow);
-        @media (min-width: map.get(config.$breakpoints, "sm")) {
-            right: 0;
-        }
+        right: 0;
     }
     
     &:hover &__content {

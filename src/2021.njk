@@ -1,4 +1,5 @@
 ---
+subtitle: Es20 och Te19
 layout: games.njk
 ---
 {% set year = 2021 %}
@@ -6,7 +7,17 @@ layout: games.njk
     {% set herotext = title + " - " + y2021.theme %}
     {% include 'components/hero.njk' %}
     <section class="page__content flow">
-        <h2>Stuff</h2>
+        <h2>{{ subtitle }}</h2>
+        <p class="lead">I år så har de här klasserna sammarbetat för att skapa spel 
+            under ett antal veckor i november och december. Spelprojektet började 
+            med gemensam brainstorming, följt av föreläsning med Daniel från 
+            <a href="https://arcticgamelab.com/" target="_blank">Arctic Game Lab</a>.
+        </p>
+        <p class="lead">Upplägget för det här året delade upp eleverna i mindre team
+            som tillsammans ansvarade för att skapa spelens koncept. Efter det fick
+            eleverna individuella uppdrag i att skapa spel, eller delar av spel.
+        </p>
+        <p class="lead">Vi fick även sällskap av årets Gymnasieingenjörer.</p>
         {% set teams = y2021.teams %}
         <section class="gamecards">
             {% for game in y2021.games %}
@@ -18,15 +29,13 @@ layout: games.njk
                         <h3>
                             {{ game.title }}
                         </h3>
-                        <p>{{ game.creator }}</p>
+                        <p>Skapat av: {{ game.creators | getCreators }}</p>
                     </header>
                     <p>
                         {{ game.description }}
                     </p>
-                    {% for team in teams | getTeam(game.team) %}
-                        <p>{{ team.team }}</p>
-                        <p>{{ team.members }}</p>
-                    {% endfor %}
+                    {% set team = teams | getTeam(game.team) %}
+                    <p>{{ team.team }} består av: <span>{{ team.members }}</span></p>
                     <p>
                         Koden finns på <a href="{{ game.git }}" target="_blank">GitHub</a>.
                     </p>

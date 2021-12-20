@@ -1,7 +1,4 @@
-const fs = require('fs');
-
-const getTeam = (teams, teamname) => {
-    return teams.filter(t => t.team === teamname);
-};
-
-module.exports = { getTeam };
+module.exports = {
+    getTeam: (teams, teamname) => teams.filter(t => t.team === teamname)[0],
+    getCreators: (creators) => typeof creators === 'object' ? creators.join(', ') : creators,
+}
