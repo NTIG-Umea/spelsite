@@ -2,6 +2,7 @@
     "classes": ["es19", "te20", "te4"],
     "year": 2021,
     "theme": "Vinterspel",
+    "engine": "Phaser 3",
     "games": [
         {
             "team": "Kung-fu Bananas",

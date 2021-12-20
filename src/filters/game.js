@@ -3,4 +3,9 @@ module.exports = {
     listCreators: (creators) => {
         return typeof creators === 'object' ? creators.sort().join(', ') : creators
     },
+    randomize: (arr) => {
+        return arr.sort(() => {
+          return 0.5 - Math.random();
+        });
+    },
 }

@@ -24,7 +24,7 @@ layout: games.njk
             som ville arbeta med Unity.</p>
         {% set teams = y2021.teams %}
         <section class="gamecards">
-            {% for game in y2021.games %}
+            {% for game in y2021.games | randomize %}
             {% include 'components/game-card.njk' %}
             {% endfor %}
         </section>
