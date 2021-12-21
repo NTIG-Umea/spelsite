@@ -261,6 +261,10 @@ h3 {
 .page__content {
   margin-top: 1.333rem;
 }
+.page__button-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .button {
   display: inline-block;
