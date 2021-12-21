@@ -1,5 +1,5 @@
 ---
-subtitle: Es20 ❤ Te19
+title: 2021
 layout: games.njk
 ---
 {% set year = 2021 %}
@@ -9,7 +9,10 @@ layout: games.njk
     {% set herotext = title + " - " + y2021.theme %}
     {% include 'components/games-hero.njk' %}
     <section class="page__content flow">
-        <h2>{{ subtitle }}</h2>
+        {% set class = y2021.classes | hearts %}
+        <h2>
+        {{ class }}
+        </h2>
         <p class="lead">I år så har de här klasserna sammarbetat för att skapa spel 
             under ett antal veckor i november och december. Spelprojektet började 
             med gemensam brainstorming, följt av föreläsning med Daniel från 

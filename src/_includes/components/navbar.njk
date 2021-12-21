@@ -12,9 +12,30 @@
                     <ul class="nav dropdown__content">
                         <li class="dropdown__item">
                             <a 
-                                class="nav__link{% if page.url === '2021/' %} active{% endif %}"
+                                class="nav__link{% if page.url === '/2021/' %} active{% endif %}"
                                 href="/2021/">
                                 {{ y2021.year | safe }} - {{ y2021.theme | safe}}
+                            </a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a 
+                                class="nav__link{% if page.url === '/2020/' %} active{% endif %}"
+                                href="/2020/">
+                                {{ y2020.year | safe }} - {{ y2020.theme | safe}}
+                            </a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a 
+                                class="nav__link{% if page.url === '/2019/' %} active{% endif %}"
+                                href="/2019/">
+                                {{ y2019.year | safe }} - {{ y2019.theme | safe}}
+                            </a>
+                        </li>
+                        <li class="dropdown__item">
+                            <a 
+                                class="nav__link{% if page.url === '/2018/' %} active{% endif %}"
+                                href="/2018/">
+                                {{ y2018.year | safe }} - {{ y2018.theme | safe}}
                             </a>
                         </li>
                     </ul>

@@ -1,7 +1,7 @@
 {
-    "name": "te19-es20",
+    "name": "spelsite",
     "version": "1.0.0",
-    "description": "A site for showcasing games developed by students @ NTI Gymnasiet Umeå",
+    "description": "A site for showcasing games developed by students @NTIG-Umea",
     "main": "index.js",
     "scripts": {
         "scss:watch": "sass --watch --no-source-map src/scss:src/css",
@@ -14,11 +14,10 @@
         "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json, njk}' --config ./.prettierrc"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jensnti/spelsite.git"
+        "url": "https://github.com/NTIG-Umea/spelsite"
     },
     "bugs": {
-        "url": "https://github.com/jensnti/spelsite/issues"
+        "url": "https://github.com/NTIG-Umea/spelsite/issues"
     },
     "keywords": [],
     "author": "Jens Andreasson",

@@ -1,0 +1,10 @@
+{
+    "classes": ["te18", "es18", "es19"],
+    "year": 2020,
+    "theme": "Julspel",
+    "engine": "Phaser 3",
+    "games": [
+    ],
+    "teams": [
+    ]
+}

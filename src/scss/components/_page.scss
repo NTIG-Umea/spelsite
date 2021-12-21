@@ -10,6 +10,7 @@
             font-size: map.get(config.$scale, 400);
             word-break: break-word;
             hyphens: auto;
+            white-space: pre-line;
             @media (max-width: map.get(config.$breakpoints, "sm")) {
                 font-size: map.get(config.$scale, 300);
             }
@@ -18,9 +19,6 @@
         color: var(--color-light);
         padding-top: map.get(config.$scale, 300);
         padding-bottom: map.get(config.$scale, 300);
-        &--wrap {
-            white-space: pre-line;
-        }
     }
     &__content {
         margin-top: map.get(config.$scale, 100);

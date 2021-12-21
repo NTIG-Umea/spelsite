@@ -8,4 +8,7 @@ module.exports = {
           return 0.5 - Math.random();
         });
     },
+    hearts: (arr) => {
+        return arr.join(' ♥ ');
+    }
 }
