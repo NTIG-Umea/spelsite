@@ -23,4 +23,8 @@
     &__content {
         margin-top: map.get(config.$scale, 100);
     }
+    &__button-container {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
