@@ -414,6 +414,32 @@ h3 {
   justify-content: space-between;
 }
 
+.flash {
+  z-index: 1100;
+  position: fixed;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  left: 2vmin;
+  bottom: 2vmin;
+  max-width: 60ch;
+  width: 100%;
+  padding: 1.333rem;
+  border: 1px solid var(--color-grey);
+}
+.flash__inner {
+  display: grid;
+  justify-items: end;
+}
+.flash__button {
+  color: var(--color-light);
+  background-color: inherit;
+  border: none !important;
+}
+.flash__button:hover {
+  color: var(--color-grey);
+  box-shadow: none !important;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -447,4 +473,8 @@ a:hover {
 
 .updates__list {
   list-style: disc;
+}
+
+.invisible {
+  display: none !important;
 }
