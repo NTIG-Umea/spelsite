@@ -4,4 +4,5 @@ module.exports = {
     title: 'Spelutveckling',
     school: 'NTI Gymnasiet Umeå',
     description: 'Spelprojekt från NTI Gymnasiet Umeå',
+    themeColor: '#4a0080',
 };

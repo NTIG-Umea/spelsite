@@ -17,7 +17,7 @@
 @use "components/nav";
 @use "components/dropdown";
 @use "components/gamecard";
-// @use "components/playground";
+@use "components/flash";
 
 body {
     display: flex;
@@ -55,4 +55,8 @@ a {
 
 .updates__list {
     list-style: disc;
+}
+
+.invisible {
+    display: none !important;
 }
