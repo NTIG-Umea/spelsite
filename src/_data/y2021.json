@@ -1,5 +1,5 @@
 {
-    "classes": ["es19", "te20", "te4"],
+    "classes": ["es20", "te19", "te4"],
     "year": 2021,
     "theme": "Vinterspel",
     "engine": "Phaser 3",
