@@ -380,7 +380,7 @@ h3 {
   box-shadow: 0px 8px 16px 0px var(--color-shadow);
   right: 0;
 }
-.dropdown:hover .dropdown__content {
+.dropdown:hover .dropdown__content, .dropdown:focus .dropdown__content, .dropdown:active .dropdown__content, .dropdown:focus-within .dropdown__content {
   display: flex;
   flex-direction: column;
 }
@@ -390,6 +390,9 @@ h3 {
 }
 .dropdown__item:hover {
   box-shadow: 0px 2px 4px 0px var(--color-shadow);
+}
+.dropdown__item a {
+  display: block;
 }
 
 .gamecards {
@@ -421,8 +424,8 @@ h3 {
   background-color: var(--color-dark);
   left: 2vmin;
   bottom: 2vmin;
+  margin-right: 2vmin;
   max-width: 60ch;
-  width: 100%;
   padding: 1.333rem;
   border: 1px solid var(--color-grey);
 }

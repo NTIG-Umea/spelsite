@@ -5,6 +5,15 @@
     "engine": "Phaser 3",
     "games": [
         {
+            "team": "Space Scientists",
+            "creators": "Emil Åberg",
+            "title": "SkidåksVM 2021",
+            "description": "Ta dig till vm guld.",
+            "image": "emil-ab.jpg",
+            "url": "https://skidaksvm.netlify.app/",
+            "git": "https://github.com/NTIG-Umea/wu2-spel-aberg2"
+        },
+        {
             "team": "Kung-fu Bananas",
             "creators": "Elliot Thuren",
             "title": "Somer Himpson",
@@ -112,6 +121,11 @@
         }
     ],
     "teams": [
+        {
+            "team": "Space Scientists",
+            "members": ["Emil", "Leo", "Wilmer", "Esme", "Mattis"],
+            "concept": "url"
+        },
         {
             "team": "Krulliga surfarna",
             "members": ["Liam", "Emil", "Noah", "Isac", "Tim"],
