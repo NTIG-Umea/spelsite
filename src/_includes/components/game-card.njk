@@ -1,4 +1,4 @@
-{% set gameid = game.title | slug + game.creators | listCreators | slug %}
+{% set gameid = game.title | slug + "--" + game.creators | listCreators | slug %}
 <article class="gamecard flow" id="{{ gameid }}">
     <img 
         src="/img/{{ year }}/{{ game.team | slug }}/{{ game.image }}"
