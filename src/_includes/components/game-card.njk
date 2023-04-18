@@ -1,8 +1,12 @@
 {% set gameid = game.title | slug + "--" + game.creators | listCreators | slug %}
 <article class="gamecard flow" id="{{ gameid }}">
-    <img 
-        src="/img/{{ year }}/{{ game.team | slug }}/{{ game.image }}"
-        alt="Skärmdump av spelet {{ game.title }}.">
+    {% if game.image %}
+    {% if game.team %}
+    <img src="/img/{{ year }}/{{ game.team | slug }}/{{ game.image }}" alt="Skärmdump av spelet {{ game.title }}.">
+    {% else %}
+    <img src="/img/{{ year }}/{{ game.image }}" alt="Skärmdump av spelet {{ game.title }}.">
+    {% endif %}
+    {% endif %}
     <header>
         <h3>
             {{ game.title }}
@@ -15,10 +19,13 @@
             {{ game.description }}
         </p>
         {% endif %}
+        {% if game.team %}
         {% set team = teams | getTeam(game.team) %}
         <p>Konceptet är utvecklat av <strong class="gamecard__teamname">
-            {{ team.team }}</strong>: 
-            <span>{{ team.members | listCreators }}</span>.</p>
+                {{ team.team }}</strong>:
+            <span>{{ team.members | listCreators }}</span>.
+        </p>
+        {% endif %}
         {% if game.git %}
         <p>Koden finns på <a href="{{ game.git }}" target="_blank">GitHub</a>.</p>
         {% endif %}

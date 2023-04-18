@@ -1,0 +1,19 @@
+{
+    "classes": [
+        "te20"
+    ],
+    "year": 2022,
+    "theme": "Spel",
+    "engine": "Phaser 3, Kaboom.js",
+    "games": [
+        {
+            "team": "",
+            "creators": "Simon Ågren",
+            "title": "Judgement Ball",
+            "description": "Fixa",
+            "image": "simag.png",
+            "url": "https://judgementball.netlify.app/",
+            "git": "https://github.com/TomtenPim/phaser3-vite-template"
+        }
+    ]
+}
