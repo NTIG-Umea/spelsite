@@ -8,11 +8,11 @@
     "games": [
         {
             "team": "",
-            "creators": "Simon Ågren",
+            "creators": "Simon Mikael Ågren",
             "title": "Judgement Ball",
-            "description": "Fixa",
-            "image": "simag.png",
-            "url": "https://judgementball.netlify.app/",
+            "description": "Du är en boll. Bollar älskar stjärnor men hatar spikklot. Samla så många poäng som möjligt WASD för förflyttning, MELLANSLAG för hopp, MUSKLICK för Dash om du är i luften.",
+            "image": "simonspel.png",
+            "url": "https: //judgementball.netlify.app/",
             "git": "https://github.com/TomtenPim/phaser3-vite-template"
         },
         {
