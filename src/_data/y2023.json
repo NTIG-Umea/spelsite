@@ -8,13 +8,13 @@
   "engine": "Egen",
   "games": [
     {
-      "team": "Space Scientists",
-      "creators": "Emil Åberg",
-      "title": "SkidåksVM 2021",
-      "description": "Ta dig till vm guld.",
-      "image": "emil-ab.jpg",
-      "url": "https://skidaksvm.netlify.app/",
-      "git": "https://github.com/NTIG-Umea/wu2-spel-aberg2"
+      "team": "Löddriga mumsare",
+      "creators": "Alvin Högdal",
+      "title": "10/10 gruppprojekt",
+      "description": "När kommer ES21 göra grafiken?",
+      "image": "quagga.jpg",
+      "url": "https://nonsensicalquagga.github.io/game-base/",
+      "git": "https://github.com/NonsensicalQuagga/game-base"
     }
   ],
   "teams": [
