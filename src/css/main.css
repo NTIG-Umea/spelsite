@@ -417,6 +417,11 @@ h3 {
   justify-content: space-between;
 }
 
+.gamecard img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
 .flash {
   z-index: 1100;
   position: fixed;
