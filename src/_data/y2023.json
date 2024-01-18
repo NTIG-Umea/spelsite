@@ -1,0 +1,139 @@
+{
+  "classes": [
+    "es21",
+    "te21"
+  ],
+  "year": 2023,
+  "theme": "Halloweenspel",
+  "engine": "Egen",
+  "games": [
+    {
+      "team": "Löddriga mumsare",
+      "creators": "Alvin Högdal",
+      "title": "10/10 gruppprojekt",
+      "description": "När kommer ES21 göra grafiken?",
+      "image": "quagga.jpg",
+      "url": "https://nonsensicalquagga.github.io/game-base/",
+      "git": "https://github.com/NonsensicalQuagga/game-base"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "creators": "Noel",
+      "title": "Monster shooting",
+      "description": "Skjut alla läskiga monster, Rör dig med upp och ner piltangenterna och skjut med a ",
+      "image": "noel.jpg",
+      "url": "https://nn0el.github.io/game-base/",
+      "git": "https://github.com/Nn0el/game-base"
+    },
+    {
+      "team": "Bioniska cyklister",
+      "creators": "Endo",
+      "title": "Cat Conjurer: A Witch Tale",
+      "description": "Rädda katter från Finn",
+      "image": "ggm.jpg",
+      "url": "https://endaxe.github.io/game-base/",
+      "git": "https://github.com/Endaxe/game-base"
+    },
+    {
+      "team": "Bioniska cyklister",
+      "creators": "Milton Långström",
+      "title": "Cat conjurer",
+      "description": "Ett spel där du ska fånga katter",
+      "image": "framsidaspel.png",
+      "url": "https://millelang.github.io/game-base/",
+      "git": "https://github.com/Millelang/game-base"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "creators": [
+        "Levi (programmering)",
+        "Jonathan (grafik)"
+      ],
+      "title": "Nåels färd",
+      "description": " “Nåels färd” så testas din förmåga att befria staden från de onda monstrerna som har snott godis från alla vuxna medborgare.",
+      "image": "someimg.png",
+      "url": "https://mephit299.github.io/game-base/",
+      "git": "https://github.com/Mephit299/game-base"
+    },
+    {
+      "team": "Frostiga gnagare",
+      "creators": [
+        "Gabriel Nilsson Högberg",
+        "Nemo Sandqvist"
+      ],
+      "title": "Pumpa Stomper",
+      "description": "Du är en unge som hoppar och tar sönder andras pumpor eftersom man blev nekad till godis på halloween och fick mjuka mandariner istället.",
+      "image": "pumpastomper.jpg",
+      "url": "https://gabbe16.github.io/Min-Spelmotor/",
+      "git": "https://github.com/Gabbe16/Min-Spelmotor"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "creators": [
+        "Sven Rune Alfred Engberg",
+        "Jonatan"
+      ],
+      "title": "Nåels Färd",
+      "description": "I Nåels Färd",
+      "image": "bild.pa.spel.png",
+      "url": "https://alfredengberg.github.io/game-base/",
+      "git": "https://github.com/AlfredEngberg/game-base"
+    }
+  ],
+  "teams": [
+    {
+      "team": "Giftiga mammutar",
+      "members": [
+        "Hilda",
+        "Oscar",
+        "Emrik"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Löddriga mumsare",
+      "members": [
+        "Alvin"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Bioniska cyklister",
+      "members": [
+        "Finn",
+        "Filip",
+        "Endo"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Frostiga gnagare",
+      "members": [
+        "Josef",
+        "Nemo",
+        "Gabriel"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "members": [
+        "Noel",
+        "Maria",
+        "Jonathan",
+        "Levi"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Festliga räkor",
+      "members": [
+        "Mikael",
+        "Stina",
+        "Ebbe",
+        "Joshua"
+      ],
+      "concept": "url"
+    }
+  ]
+}
