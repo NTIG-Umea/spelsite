@@ -1,0 +1,33 @@
+---
+title: 2023
+layout: games.njk
+---
+{% set year = 2023 %}
+{% set theme = y2023.theme %}
+{% set engine = y2023.engine %}
+<main id="main-content" class="page container">
+  {% set herotext = title + " - " + y2023.theme %}
+  {% include 'components/games-hero.njk' %}
+  <section class="page__content flow">
+    {% set class = y2023.classes | hearts %}
+    <h2>
+      {{ class }}
+    </h2>
+    <p class="lead">Äntligen så fick vi allt att fungera igen! Tillsammans har Estet och teknik-treorna skapat spel på
+      temat Halloween i år. </p>
+    <p>Vi valde att ändra lite i arbetsprocessen det här året, så eleverna mötte först upp för att planera sina spel.
+      Efter det så arbetade estet-eleverna med att skapa grafik. Under tiden så arbetade teknik-eleverna för att förstå
+      och kunna använda en spelmotor för projektet.</p>
+    <p>Den <a href="https://github.com/jensadev/game-base" target="_blank">spelmotor</a> eleverna arbetade med i år
+      knåpades ihop av Jens med grund i material från <a href="https://www.youtube.com/@Frankslaboratory"
+        target="_blank">Frank's
+        Labratory</a>. Anledningen till det var att Jens önskade att eleverna
+      skulle få arbeta mer med Javascript och mindre med att klura ut hur något fungerade i Phaser3.</p>
+    {% set teams = y2023.teams %}
+    <section class="gamecards">
+      {% for game in y2023.games | randomize %}
+      {% include 'components/game-card.njk' %}
+      {% endfor %}
+    </section>
+  </section>
+</main>

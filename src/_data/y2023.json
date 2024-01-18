@@ -1,0 +1,72 @@
+{
+  "classes": [
+    "es21",
+    "te21"
+  ],
+  "year": 2023,
+  "theme": "Halloweenspel",
+  "engine": "Egen",
+  "games": [
+    {
+      "team": "Space Scientists",
+      "creators": "Emil Åberg",
+      "title": "SkidåksVM 2021",
+      "description": "Ta dig till vm guld.",
+      "image": "emil-ab.jpg",
+      "url": "https://skidaksvm.netlify.app/",
+      "git": "https://github.com/NTIG-Umea/wu2-spel-aberg2"
+    }
+  ],
+  "teams": [
+    {
+      "team": "Giftiga mammutar",
+      "members": [
+        "Hilda",
+        "Oscar",
+        "Emrik"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Löddriga mumsare",
+      "members": [],
+      "concept": "url"
+    },
+    {
+      "team": "Bioniska cyklister",
+      "members": [
+        "Finn",
+        "Filip"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Frostiga gnagare",
+      "members": [
+        "Josef",
+        "Nemo"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "members": [
+        "Natta",
+        "Maria",
+        "Jonathan",
+        "Levi"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Festliga räkor",
+      "members": [
+        "Mikael",
+        "Stina",
+        "Ebbe",
+        "Joshua"
+      ],
+      "concept": "url"
+    }
+  ]
+}
