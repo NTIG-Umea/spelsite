@@ -1,0 +1,72 @@
+{
+  "classes": ["te21"],
+  "year": 2023,
+  "lead": "Ett nytt år och en ny klass. Denna gång är det TE21 som har fått äran att skapa sina egna clickerspel.",
+  "description": "Eleverna jobbade med en färdig mall där de främst behöver skapa ett eget tema och byta namn på saker och ting. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
+  "clickers": [
+    {
+      "title": "Lyssnaren",
+      "tagline": "En klicker där du aldrig är säker om det är spelet eller rösterna",
+      "url": "https://alfredengberg.github.io/wu1-clicker-voices/",
+      "git": "https://github.com/AlfredEngberg/wu1-clicker-voices",
+      "author": "Alfred Engberg",
+      "image": "1dbfa60f59e685389fd521e5bd85987e.png"
+    },
+    {
+      "title": "Pizzabaker clicker",
+      "tagline": "Baka Feta smarriga Pizzor kom in!!!!",
+      "url": "https://endaxe.github.io/wu1-clicker/",
+      "git": "https://github.com/Endaxe/wu1-clicker",
+      "author": "Endo",
+      "image": "2c251ee8225c1f4b955d6414ead6c226.png"
+    },
+    {
+      "title": "Restaurang Clicker",
+      "tagline": "Skapa din egna dröm restaurang!",
+      "url": "https://gabbe16.github.io/wu1-clicker/",
+      "git": "https://github.com/Gabbe16/wu1-clicker",
+      "author": "Gabriel Nilsson Högberg",
+      "image": "37648ff7f163bed676f6e532959308e6.png"
+    },
+    {
+      "title": "Cat Clicker",
+      "tagline": "The most fun you can have online",
+      "url": "https://jacobtwentyone.github.io/wu1-clicker/",
+      "git": "https://github.com/JacobTwentyOne/wu1-clicker",
+      "author": "JacobLJ",
+      "image": "7244cf82351da0b93b0da9d7c9eaaad6.png"
+    },
+    {
+      "title": "Monsterslayer",
+      "tagline": "",
+      "url": "https://mephit299.github.io/wu1-clicker/",
+      "git": "https://github.com/Mephit299/wu1-clicker",
+      "author": "Levi",
+      "image": "eb051bc223e3f1f7b9a3642967c67383.png"
+    },
+    {
+      "title": "Potion Clicker",
+      "tagline": "Brew potions and enjoy their effects while earning big off of em",
+      "url": "https://l1nu5-21.github.io/wu1-clicker/",
+      "git": "https://github.com/L1nu5-21/wu1-clicker",
+      "author": "Linus",
+      "image": "6efa3656b5265b1689d450d5b8061a6b.png"
+    },
+    {
+      "title": "Semla Clicker",
+      "tagline": "Baka semlor och bli semmelmästare",
+      "url": "https://pissoarsniffare.github.io/wu1-clicker/",
+      "git": "https://github.com/Pissoarsniffare/wu1-clicker",
+      "author": "Samuel Viglundsson",
+      "image": "49ffada58852c7e063631de4adc56205.png"
+    },
+    {
+      "title": "Shroom Farmer",
+      "tagline": "Du farmar en massa fantastiska svampar",
+      "url": "https://nonsensicalquagga.github.io/wu1-clicker/",
+      "git": "https://github.com/NonsensicalQuagga/wu1-clicker",
+      "author": "Alvin",
+      "image": "a98766f6aa9ca7da4783ef5dc11b46fb.png"
+    }
+  ]
+}

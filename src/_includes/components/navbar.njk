@@ -7,14 +7,30 @@
       <ul class="nav">
         <li class="nav__item dropdown">
           <button class="nav__dropdown-toggle">
-            År och tema
+            Spel: år och tema
           </button>
           <ul class="nav dropdown__content">
             {% for game in games | reverse %}
             {% if game.year %}
             <li class="dropdown__item">
-              <a class="nav__link{% if page.url === '/{{ game. year }}/' %} active{% endif %}" href="/games/{{ game.year }}">
+              <a class="nav__link{% if page.url === '/{{ game.year }}/' %} active{% endif %}" href="/games/{{ game.year }}">
                 {{ game.year | safe }} - {{ game.theme | safe}}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav__item dropdown">
+          <button class="nav__dropdown-toggle">
+            Clickers: år och klass
+          </button>
+          <ul class="nav dropdown__content">
+            {% for clicker in clickers | reverse %}
+            {% if clicker.year %}
+            <li class="dropdown__item">
+              <a class="nav__link{% if page.url === '/{{ clicker.year }}/' %} active{% endif %}" href="/clickers/{{ clicker.year }}">
+                {{ clicker.year | safe }} - {{ clicker.classes | safe}}
               </a>
             </li>
             {% endif %}

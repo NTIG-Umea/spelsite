@@ -1,0 +1,26 @@
+{% set cid = c.title | slug + "--" + c.author | slug %}
+<li class="gamecard flow" id="{{ cid }}">
+    {% if c.image %}
+    <img src="/img/clickers/{{ c.image }}" alt="Skärmdump av spelet {{ c.title }}.">
+    {% endif %}
+    <header>
+      <h3>
+          {{ c.title }}
+      </h3>
+      <p>Skapat av: {{ c.author }}</p>
+  </header>
+  <div class="gamecard__body flow">
+    {% if c.tagline %}
+    <p>
+        {{ c.tagline }}
+    </p>
+    {% endif %}
+    {% if c.git %}
+    <p>Koden finns på <a href="{{ c.git }}" target="_blank">GitHub</a>.</p>
+    {% endif %}
+</div>
+<footer>
+    <button class="button button--like" title="Gilla">❤ 0</button>
+    <a class="button" href="{{ c.url }}" target="_blank">Spela {{ c.title }}</a>
+</footer>
+</li>
