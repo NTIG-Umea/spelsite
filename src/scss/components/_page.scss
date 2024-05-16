@@ -22,6 +22,9 @@
     }
     &__content {
         margin-top: map.get(config.$scale, 100);
+        header {
+          font-size: config.$font-size-medium;
+        }
     }
     &__button-container {
         display: flex;

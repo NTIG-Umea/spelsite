@@ -11,18 +11,20 @@ layout: games.njk
   {% set herotext = game.year + " - " + game.theme %}
   <header class="page__hero">
     <div class="page__heading bleed">
-        <div class="container">
-            <h1 class="page__heading--wrap">År: {{ game.year }}
-                Tema: {{ game.theme }}
-                Spelmotor: {{ game.engine }}
-            </h1>
-        </div>
+      <div class="container">
+        <h1 class="page__heading--wrap">År: {{ game.year }}
+          Tema: {{ game.theme }}
+          Spelmotor: {{ game.engine }}
+        </h1>
+      </div>
     </div>
-</header>
+  </header>
   <article class="page__content flow">
-    <h2>{{ game.classes | hearts }}</h2>
-    <p class="lead">{{ game.lead }}</p>
-    <p class="lead">{{ game.description | safe }}</p>
+    <header class="flow">
+      <h2>{{ game.classes | hearts }}</h2>
+      <p class="lead">{{ game.lead }}</p>
+      {{ game.description | renderUsingMarkdown | safe }}
+    </header>
     <ul class="gamecards">
       {% for g in game.games | randomize %}
       {% include 'components/game-card.njk' %}
