@@ -1,8 +1,8 @@
 {
   "classes": ["te20"],
   "year": 2022,
-  "lead": "",
-  "description": "",
+  "lead": "Ett nytt år och en ny klass. Denna gång är det TE20 som har fått äran att skapa sina egna clickerspel.",
+  "description": "Eleverna jobbade med en färdig mall där de främst behöver skapa ett eget tema och byta namn på saker och ting. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
   "clickers": [
       {
           "title": "Grodslickaren",

@@ -1,8 +1,8 @@
 {
   "classes": ["te21"],
   "year": 2023,
-  "lead": "",
-  "description": "",
+  "lead": "Ett nytt år och en ny klass. Denna gång är det TE21 som har fått äran att skapa sina egna clickerspel.",
+  "description": "Eleverna jobbade med en färdig mall där de främst behöver skapa ett eget tema och byta namn på saker och ting. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
   "clickers": [
     {
       "title": "Lyssnaren",

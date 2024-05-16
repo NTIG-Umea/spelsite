@@ -12,13 +12,13 @@ layout: games.njk
     <div class="page__heading bleed">
       <div class="container">
         <h1 class="page__heading--wrap">År: {{ clicker.year }}
+          Klass: {{ clicker.classes | hearts }}
         </h1>
       </div>
     </div>
   </header>
   <article class="page__content flow">
     <header class="flow">
-      <h2>{{ clicker.classes | hearts }}</h2>
       <p class="lead">{{ clicker.lead }}</p>
       {{ clicker.description | renderUsingMarkdown | safe }}
     </header>
