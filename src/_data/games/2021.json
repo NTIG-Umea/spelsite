@@ -3,6 +3,8 @@
     "year": 2021,
     "theme": "Vinterspel",
     "engine": "Phaser 3",
+    "lead": "I år så har de här klasserna sammarbetat för att skapa spel under ett antal veckor i november och december. Spelprojektet började med gemensam brainstorming, följt av föreläsning med Daniel från [Arctic Game Lab](https://arcticgamelab.com/).",
+    "description": "Upplägget för det här året delade upp eleverna i mindre team som tillsammans ansvarade för att skapa spelens koncept. Efter det fick eleverna individuella uppdrag i att skapa spel, eller delar av spel.Vi fick även sällskap av årets [Gymnasieingenjörer](https://www.ntigymnasiet.se/program/mjukvarudesign/umea/) som ville arbeta med Unity.",
     "games": [
         {
             "team": "Space Scientists",

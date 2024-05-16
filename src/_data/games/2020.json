@@ -1,0 +1,12 @@
+{
+    "classes": ["te18", "es18", "es19"],
+    "year": 2020,
+    "theme": "Julspel",
+    "engine": "Phaser 3",
+    "lead": "2020 blev första året då vi använde spelmotorn Phaser. Uppgiften utfördes i grupp. Grupperna var blandade teknikare och estetare och tillsammans skapade de spelens koncept.",
+    "description": "Tyvärr är spelen något svåra att komma åt i dagsläget då läraren hade en ide (som inte riktigt fungerade) kring hur spelen skulle hostas på webben.",
+    "games": [
+    ],
+    "teams": [
+    ]
+}
