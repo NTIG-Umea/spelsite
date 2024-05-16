@@ -1,0 +1,12 @@
+{
+    "classes": ["te16"],
+    "year": 2018,
+    "theme": "Julspel",
+    "engine": "Egen",
+    "lead": "Spelprojektets första år, 2018, genomfördes med klassen Te16. Temat var jul och eleverna startade spelet med varierande kunskaper om javascript och canvas-elementet.",
+    "description": "Resultatet blev en stor variation av speltyper och komplexitet. Det visade sig att det inte är helt enkelt att koda spel och en stor del av tiden gick åt att skapa spelmotorn. Tills vidare finns spelen samlade på sidan [Te16](https://jensadev.github.io/te16jul/).",
+    "games": [
+    ],
+    "teams": [
+    ]
+}

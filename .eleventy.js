@@ -21,6 +21,17 @@ module.exports = (eleventyConfig) => {
         );
     });
 
+    const MarkdownIt = require('markdown-it');
+    const mdRender = new MarkdownIt();
+    eleventyConfig.addFilter('renderUsingMarkdown', function (rawString) {
+        return mdRender.render(rawString);
+    });
+
+    const year = () => {
+        return `${new Date().getFullYear()}`;
+    };
+    eleventyConfig.addShortcode('year', year);
+
     // 404
     eleventyConfig.setBrowserSyncConfig({
         callbacks: {

@@ -5,6 +5,8 @@
     "year": 2022,
     "theme": "Spel",
     "engine": "Phaser 3, Kaboom.js, egen",
+    "lead": "Det här året så blev det ett annorlunda upplägg, detta eftersom vi saknade Estet-klass att sammarbeta med. Eleverna fick möjlighet att välja projekt, så alla skapade inte heller spel. De spel som skapades var individuella arbeten.",
+    "description": "Till skillnad från tidigare år så var valet av spelmotor öppet, eleverna fick först testa på att arbeta med olika spelmotorer. De kunde sedan om de ville arbeta med den spelmotorn i projektet.",
     "games": [
         {
             "team": "",

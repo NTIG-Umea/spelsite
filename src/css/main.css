@@ -64,10 +64,9 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
-
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -83,21 +82,21 @@ select {
 :root {
   --flow-space: 1.333rem;
   --color-mode: "light";
-  --color-bg: #e8e8e8;
-  --color-fg: #212121;
-  --color-light: #f0f0f0;
-  --color-dark: #212121;
-  --color-primary: #4a0080;
+  --color-bg: hsl(0, 0%, 91%);
+  --color-fg: hsl(0, 0%, 13%);
+  --color-light: hsl(0, 0%, 94%);
+  --color-dark: hsl(0, 0%, 13%);
+  --color-primary: hsl(275, 100%, 25%);
   --color-primary-hover: rgba(74, 0, 128, 0.8);
-  --color-on-primary: #4a0080;
-  --color-secondary: #ec325a;
+  --color-on-primary: hsl(275, 100%, 25%);
+  --color-secondary: hsl(347, 83%, 56%);
   --color-secondary-hover: rgba(236, 50, 90, 0.8);
   --color-on-secondary: #222222;
-  --color-selection: #ec325a;
+  --color-selection: hsl(347, 83%, 56%);
   --color-on-selection: #222222;
-  --color-grey: #c7c7c7;
-  --color-grey-light: white;
-  --color-grey-dark: #636363;
+  --color-grey: hsl(0, 0%, 78%);
+  --color-grey-light: hsl(0, 0%, 100%);
+  --color-grey-dark: hsl(0, 0%, 39%);
   --color-shadow: rgba(33, 33, 33, 0.2);
 }
 
@@ -260,6 +259,9 @@ h3 {
 }
 .page__content {
   margin-top: 1.333rem;
+}
+.page__content header {
+  font-size: 1.333rem;
 }
 .page__button-container {
   display: flex;

@@ -38,9 +38,10 @@ layout: base.njk
     <p class="lead">Från oss lärare, <a href="mailto:frej.frykholm@ntig.se">Frej</a> och <a
         href="mailto:jens.andreasson@ntig.se">Jens</a>, till er alla, hoppas ni hittar något kul och
       inspirerande!</p>
-    <div class="page__button-container">
-      <a href="/2023/" class="button">Ta mig till årets spel!</a>
-    </div>
+      <div class="page__button-container">
+        {% set game = games | last %}
+        <a href="/games/{{ game.year }}" class="button">Ta mig till årets spel!</a>
+      </div>
     <p>Alla år och spel finns ännu inte representerade på sidan, det kommer.</p>
   </section>
 </main>

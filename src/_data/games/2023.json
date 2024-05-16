@@ -1,0 +1,215 @@
+{
+  "classes": [
+    "es21",
+    "te21"
+  ],
+  "year": 2023,
+  "theme": "Halloweenspel",
+  "engine": "Egen",
+  "lead": "Äntligen så fick vi allt att fungera igen! Tillsammans har estet och teknik-treorna skapat spel på temat Halloween.",
+  "description": "Projektet startade med en gästföreläsning av Andreas Waleij från [Arctic Game](https://arcticgame.se/) för att eleverna skulle få en inblick i den spelindustri som faktiskt finns i,framförallt, norra Sverige. Vi valde att ändra lite i arbetsprocessen det här året, eleverna mötte först upp för att planera sina spel. Efter det så arbetade estet-eleverna med att skapa grafik samtidigt som teknik-eleverna arbetade med att förstå och kunna använda en spelmot för projektet. Den [spelmotor](https://github.com/jensadev/game-base) eleverna arbetade med i år knåpades ihop av Jens och baserade sig på material från [Frank's Labratory](https://www.youtube.com/@Frankslaboratory). Syftet med det var att Jens önskade att eleverna skulle få arbeta mer med Javascript och mindre med att klura ut hur något fungerade i Phaser3. Som en bonus fungerar motorn för att göra de flesta typer av spel.",
+  "games": [
+    {
+      "team": "Löddriga mumsare",
+      "creators": "Alvin Högdal",
+      "title": "10/10 gruppprojekt",
+      "description": "När kommer ES21 göra grafiken?",
+      "image": "quagga.jpg",
+      "url": "https://nonsensicalquagga.github.io/game-base/",
+      "git": "https://github.com/NonsensicalQuagga/game-base"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "creators": "Noel",
+      "title": "Monster shooting",
+      "description": "Skjut alla läskiga monster, Rör dig med upp och ner piltangenterna och skjut med a ",
+      "image": "noel.jpg",
+      "url": "https://nn0el.github.io/game-base/",
+      "git": "https://github.com/Nn0el/game-base"
+    },
+    {
+      "team": "Bioniska cyklister",
+      "creators": "Endo",
+      "title": "Cat Conjurer: A Witch Tale",
+      "description": "Rädda katter från Finn",
+      "image": "ggm.jpg",
+      "url": "https://endaxe.github.io/game-base/",
+      "git": "https://github.com/Endaxe/game-base"
+    },
+    {
+      "team": "Bioniska cyklister",
+      "creators": "Milton Långström",
+      "title": "Cat conjurer",
+      "description": "Ett spel där du ska fånga katter",
+      "image": "framsidaspel.png",
+      "url": "https://millelang.github.io/game-base/",
+      "git": "https://github.com/Millelang/game-base"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "creators": [
+        "Levi (programmering)",
+        "Jonathan (grafik)"
+      ],
+      "title": "Nåels färd",
+      "description": " “Nåels färd” så testas din förmåga att befria staden från de onda monstrerna som har snott godis från alla vuxna medborgare.",
+      "image": "someimg.png",
+      "url": "https://mephit299.github.io/game-base/",
+      "git": "https://github.com/Mephit299/game-base"
+    },
+    {
+      "team": "Frostiga gnagare",
+      "creators": [
+        "Gabriel Nilsson Högberg",
+        "Nemo Sandqvist"
+      ],
+      "title": "Pumpa Stomper",
+      "description": "Du är en unge som hoppar och tar sönder andras pumpor eftersom man blev nekad till godis på halloween och fick mjuka mandariner istället.",
+      "image": "pumpastomper.jpg",
+      "url": "https://gabbe16.github.io/Min-Spelmotor/",
+      "git": "https://github.com/Gabbe16/Min-Spelmotor"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "creators": [
+        "Sven Rune Alfred Engberg",
+        "Jonatan"
+      ],
+      "title": "Nåels Färd",
+      "description": "I Nåels Färd",
+      "image": "bild.pa.spel.png",
+      "url": "https://alfredengberg.github.io/game-base/",
+      "git": "https://github.com/AlfredEngberg/game-base"
+    },
+    {
+      "creators": "Hjalmar Lundmark",
+      "title": "Ghost Shooter",
+      "description": "Få så mycket poäng som möjligt under pressen av en oändlig mängd fiender i detta twin-stick shooter spel.",
+      "image": "ghost-shooter.jpg",
+      "url": "https://te4-twinsticks.netlify.app/",
+      "git": "https://github.com/Hjalmar-Lundmark/te4-shooter-game"
+    },
+    {
+      "creators": "Tim Nilsson",
+      "title": "William Afton's Nightmare",
+      "description": "I spelet kämpar du för att överleva mot ständigt växande horder av fiender, samtidigt som du samlar uppgraderingar för ditt vapen för att hålla dig vid liv så länge som möjligt.",
+      "image": "william-aftons-nightmare.jpg",
+      "url": "https://william-aftons-nightmare.netlify.app/",
+      "git": "https://github.com/TimNilsson04/halloween-shooter-game"
+    },
+    {
+      "creators": "Tim Fagerdal",
+      "title": "Skelly",
+      "description": "Skjut med lila Skelly och överlev de jagande monster, sammla på pengar och bli starkare!",
+      "image": "skelly.jpg",
+      "url": "https://charming-trifle-839b1f.netlify.app/",
+      "git": "https://github.com/Timpan42/Halloween-game2/tree/Halloween-game2"
+    },
+    {
+      "creators": "Seth Renberg Byström",
+      "title": "Hallows Cat",
+      "description": "Överlev pumpornas attack så länge du kan i det här spelet där du är en cool katt",
+      "image": "Hallows-Cat.png",
+      "url": "https://main--stellular-cobbler-3c8752.netlify.app",
+      "git": "https://github.com/BeepingSeath/Te4-GameJam-1"
+    },
+    {
+      "creators": "Lukas Johansson",
+      "title": "Spökhunter",
+      "description": "Var med i en episk resa där du får spöken att explodera! Hur många rundor kommer du att klara?!!",
+      "image": "spokhunter.png",
+      "url": "https://glistening-mochi-2f0fa8.netlify.app/",
+      "git": "https://github.com/Lukas-Johansson/HallowenGame"
+    },
+    {
+      "creators": "Albert Sparrman",
+      "title": "Lukas Mardröm",
+      "description": "Spela som den legendarisk Lukas Johansson och slåss för ditt liv mot vågor av fiender.",
+      "image": "lukas-mardröm.jpg",
+      "url": "https://lukas-mardrom.netlify.app/",
+      "git": "https://github.com/albertsparrman/gambing"
+    },
+    {
+      "team": "Te4 Paltade Vikingar",
+      "creators": ["Loke Öberg", "Rasmus Johansson", "Tim Fagerdal"],
+      "title": "Loki's Tale",
+      "description": "A pong rouge-lite where you are transported to Helheim and need to fight your way to Valhalla.",
+      "image": "lokis-tale.jpg",
+      "url": "https://ostbagaren.itch.io/lokis-tale",
+      "git": "https://github.com/TE4-Umea/te4-highFantasyNorseMythology"
+    },
+    {
+      "creators": "Rasmus Johansson",
+      "title": "Marching undead",
+      "description": "Överlev den ändlösa horden av odöda monster, slåss mot enorma bossar och utveckla din karaktär.",
+      "image": "screenshot.png",
+      "url": "https://iridescent-sunflower-077038.netlify.app/",
+      "git": "https://github.com/RasmusJohansson04/te4-twinstick"
+    }
+  ],
+  "teams": [
+    {
+      "team": "Te4 Paltade Vikingar",
+      "members": [
+        "Loke Öberg",
+        "Rasmus Johansson",
+        "Tim Fagerdal"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Giftiga mammutar",
+      "members": [
+        "Hilda",
+        "Oscar",
+        "Emrik"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Löddriga mumsare",
+      "members": [
+        "Alvin"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Bioniska cyklister",
+      "members": [
+        "Finn",
+        "Filip",
+        "Endo"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Frostiga gnagare",
+      "members": [
+        "Josef",
+        "Nemo",
+        "Gabriel"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Kosmiska blötdjur",
+      "members": [
+        "Noel",
+        "Maria",
+        "Jonathan",
+        "Levi"
+      ],
+      "concept": "url"
+    },
+    {
+      "team": "Festliga räkor",
+      "members": [
+        "Mikael",
+        "Stina",
+        "Ebbe",
+        "Joshua"
+      ],
+      "concept": "url"
+    }
+  ]
+}
