@@ -145,7 +145,15 @@
       "image": "screenshot.png",
       "url": "https://iridescent-sunflower-077038.netlify.app/",
       "git": "https://github.com/RasmusJohansson04/te4-twinstick"
-    }
+    },
+    {
+      "creators": "Alexander Donev Heino",
+      "title": "Not Vampire Survivors",
+      "description": "This game is by no means a clone of the hit-game Vampire Survivors (get it now on Steam). Upgrade your weapons, evolve them, and survive the onslaught of enemies.",
+      "image": "notvampiresurvivors.png",
+      "url": "https://not-vampire-survivors.netlify.app/",
+      "git": "https://github.com/Alex-mp4/game-base/tree/te4-twinstick"
+    },
   ],
   "teams": [
     {
