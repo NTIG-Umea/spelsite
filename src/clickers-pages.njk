@@ -1,0 +1,33 @@
+---
+pagination:
+  data: clickers
+  size: 1
+  alias: clicker
+permalink: "/clickers/{{ clicker.year }}/"
+layout: games.njk
+---
+
+<main id="main-content" class="page container">
+  <header class="page__hero">
+    <div class="page__heading bleed">
+      <div class="container">
+        <h1 class="page__heading--wrap">År: {{ clicker.year }}
+          Klass: {{ clicker.classes | hearts }}
+        </h1>
+      </div>
+    </div>
+  </header>
+  <article class="page__content flow">
+    <header class="flow">
+      <p class="lead">{{ clicker.lead }}</p>
+      {{ clicker.description | renderUsingMarkdown | safe }}
+    </header>
+    <ul class="gamecards">
+      {% for c in clicker.clickers | randomize %}
+      {% include 'components/clicker-card.njk' %}
+      {% else %}
+      <li>Spelen kommer, i det här fallet kan du skylla på läraren.</li>
+      {% endfor %}
+    </ul>
+  </article>
+</main>
