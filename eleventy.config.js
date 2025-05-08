@@ -64,7 +64,7 @@ export default function (eleventyConfig) {
         markdownTemplateEngine: "njk",
         dir: {
             input: "src",
-            output: "_site",
+            output: "public",
         },
         passthroughFileCopy: true,
     }

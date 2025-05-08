@@ -3,9 +3,6 @@
     "version": "2.0.0",
     "description": "A site for showcasing games developed by students @NTIG-Umea",
     "type": "module",
-    "engines": {
-        "node": ">=18.0.0"
-    },
     "scripts": {
         "scss:watch": "sass --watch --no-source-map src/scss:src/css",
         "scss:build": "sass --no-source-map src/scss:src/css",
