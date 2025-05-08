@@ -2,9 +2,9 @@
 <li class="gamecard flow" id="{{ gid }}">
     {% if g.image %}
     {% if g.team %}
-    <img src="/img/{{ game.year }}/{{ g.team | slug }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
+        <img eleventy:widths="400" src="/img/{{ game.year }}/{{ g.team | slug }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
     {% else %}
-    <img src="/img/{{ game.year }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
+        <img eleventy:widths="400" src="/img/{{ game.year }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
     {% endif %}
     {% endif %}
     <header>

@@ -1,10 +1,12 @@
 ---
 pagination:
-  data: games
-  size: 1
-  alias: game
-permalink: "/games/{{ game.year }}/"
+    data: games
+    size: 1
+    alias: game
+    filter: game => game && Object.keys(game).length > 0
 layout: games.njk
+eleventyComputed:
+    permalink: "/games/{{ game.year }}/"
 ---
 
 <main id="main-content" class="page container">
@@ -27,9 +29,9 @@ layout: games.njk
     </header>
     <ul class="gamecards">
       {% for g in game.games | randomize %}
-      {% include 'components/game-card.njk' %}
+        {% include 'components/game-card.njk' %}
       {% else %}
-      <li>Spelen kommer, i det här fallet kan du skylla på läraren.</li>
+        <li>Spelen kommer, i det här fallet kan du skylla på läraren.</li>
       {% endfor %}
     </ul>
   </article>
