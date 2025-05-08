@@ -1,0 +1,88 @@
+{
+  "classes": [
+    "es22",
+    "te22"
+  ],
+  "year": 2024,
+  "theme": "Vinterspel",
+  "engine": "Egen",
+  "lead": "Så vi lyckades få ihop sammarbetet i år igen kring spelen. Uppstarten blev dock svårroddad med olika lektionstider och scheman. ",
+  "description": "Ett stort tack till er elever som kämpat med att få ihop era spel. Upplägget blev lite stukat och jag (Jens) som lärare tar med mig att lite ändringar behöver ske. Vi hade otroliga ambitioner i början, men tid och komplexitet satte lite käppar i hjulet. Vi körde ännu ett år på den egna spelmotorn men det var inte utan problem.",
+  "games": [
+    {
+        "team": "Gulliga tomtar",
+        "creators": "Axel Jakobsson",
+        "title": "Deadmoves",
+        "description": "Döda nissar i detta spännande spelet!",
+        "image": "axel-j.png",
+        "url": "https://axeljakobsson.github.io/dead-moves/",
+        "git": "https://github.com/AxelJakobsson/dead-moves"
+    }
+  ],
+  "teams": [
+    {
+      "team": "Saltade söndagsseglare",
+      "members": [
+        "Liam",
+        "Charlie",
+        "Vincent",
+        "Daniel",
+        "Oliver"
+      ],
+      "concept": "url"
+    },
+    {
+        "team": "Gulliga tomtar",
+        "members": [
+            "Lo",
+            "Josua",
+            "Axel J",
+            "Alvin"
+        ],
+        "concept": "url"
+    },
+    {
+        "team": "Uråldriga bläckfiskar",
+        "members": [
+            "Leo",
+            "Paola",
+            "Oscar",
+            "John",
+            "Herman"
+        ],
+        "concept": "url"
+    },
+    {
+        "team": "Explosiva sniglar",
+        "members": [
+            "Jill",
+            "Emma",
+            "Olle",
+            "Henrik"
+        ],
+        "concept": "url"
+    },
+    {
+        "team": "Gasiga buggbjörnar",
+        "members": [
+            "Alicia",
+            "Matilda",
+            "Axel W",
+            "Marcus",
+            "Robin"
+        ],
+        "concept": "url"
+    },
+    {
+        "team": "Slaskande enhörningar",
+        "members": [
+            "Shalome",
+            "Elin",
+            "Elton",
+            "Jakob",
+            "Nemo"
+        ],
+        "concept": "url"
+    }
+  ]
+}

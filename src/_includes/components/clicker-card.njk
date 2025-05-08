@@ -1,7 +1,7 @@
 {% set cid = c.title | slug + "--" + c.author | slug %}
 <li class="gamecard flow" id="{{ cid }}">
     {% if c.image %}
-    <img src="/img/clickers/{{ c.image }}" alt="Skärmdump av spelet {{ c.title }}.">
+        <img eleventy:widths="400" src="/img/clickers/{{ c.image }}" alt="Skärmdump av spelet {{ c.title }}.">
     {% endif %}
     <header>
       <h3>

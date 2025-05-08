@@ -87,17 +87,17 @@ select {
   --color-light: hsl(0, 0%, 94%);
   --color-dark: hsl(0, 0%, 13%);
   --color-primary: hsl(275, 100%, 25%);
-  --color-primary-hover: rgba(74, 0, 128, 0.8);
+  --color-primary-hover: rgba(74.375, 0, 127.5, 0.8);
   --color-on-primary: hsl(275, 100%, 25%);
   --color-secondary: hsl(347, 83%, 56%);
-  --color-secondary-hover: rgba(236, 50, 90, 0.8);
-  --color-on-secondary: #222222;
+  --color-secondary-hover: rgba(235.926, 49.674, 90.0286, 0.8);
+  --color-on-secondary: hsl(0, 0%, 13.5120240924%);
   --color-selection: hsl(347, 83%, 56%);
-  --color-on-selection: #222222;
+  --color-on-selection: hsl(0, 0%, 13.5120240924%);
   --color-grey: hsl(0, 0%, 78%);
-  --color-grey-light: hsl(0, 0%, 100%);
+  --color-grey-light: hsl(0, 0%, 104%);
   --color-grey-dark: hsl(0, 0%, 39%);
-  --color-shadow: rgba(33, 33, 33, 0.2);
+  --color-shadow: rgba(33.15, 33.15, 33.15, 0.2);
 }
 
 .container {
@@ -422,6 +422,9 @@ h3 {
 .gamecard img {
   width: 100%;
   aspect-ratio: 16/9;
+  max-height: 300px;
+  object-fit: fill;
+  object-position: center;
 }
 
 .flash {
