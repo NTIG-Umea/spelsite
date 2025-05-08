@@ -1,88 +1,169 @@
 {
-  "classes": [
-    "es22",
-    "te22"
-  ],
-  "year": 2024,
-  "theme": "Vinterspel",
-  "engine": "Egen",
-  "lead": "Så vi lyckades få ihop sammarbetet i år igen kring spelen. Uppstarten blev dock svårroddad med olika lektionstider och scheman. ",
-  "description": "Ett stort tack till er elever som kämpat med att få ihop era spel. Upplägget blev lite stukat och jag (Jens) som lärare tar med mig att lite ändringar behöver ske. Vi hade otroliga ambitioner i början, men tid och komplexitet satte lite käppar i hjulet. Vi körde ännu ett år på den egna spelmotorn men det var inte utan problem.",
-  "games": [
-    {
-        "team": "Gulliga tomtar",
-        "creators": "Axel Jakobsson",
-        "title": "Deadmoves",
-        "description": "Döda nissar i detta spännande spelet!",
-        "image": "axel-j.png",
-        "url": "https://axeljakobsson.github.io/dead-moves/",
-        "git": "https://github.com/AxelJakobsson/dead-moves"
-    }
-  ],
-  "teams": [
-    {
-      "team": "Saltade söndagsseglare",
-      "members": [
-        "Liam",
-        "Charlie",
-        "Vincent",
-        "Daniel",
-        "Oliver"
-      ],
-      "concept": "url"
-    },
-    {
-        "team": "Gulliga tomtar",
-        "members": [
-            "Lo",
-            "Josua",
-            "Axel J",
-            "Alvin"
-        ],
-        "concept": "url"
-    },
-    {
-        "team": "Uråldriga bläckfiskar",
-        "members": [
-            "Leo",
-            "Paola",
-            "Oscar",
-            "John",
-            "Herman"
-        ],
-        "concept": "url"
-    },
-    {
-        "team": "Explosiva sniglar",
-        "members": [
-            "Jill",
-            "Emma",
-            "Olle",
-            "Henrik"
-        ],
-        "concept": "url"
-    },
-    {
-        "team": "Gasiga buggbjörnar",
-        "members": [
-            "Alicia",
-            "Matilda",
-            "Axel W",
-            "Marcus",
-            "Robin"
-        ],
-        "concept": "url"
-    },
-    {
-        "team": "Slaskande enhörningar",
-        "members": [
-            "Shalome",
-            "Elin",
-            "Elton",
-            "Jakob",
-            "Nemo"
-        ],
-        "concept": "url"
-    }
-  ]
+    "classes": [
+        "es22",
+        "te22"
+    ],
+    "year": 2024,
+    "theme": "Vinterspel",
+    "engine": "Egen",
+    "lead": "Så vi lyckades få ihop sammarbetet i år igen kring spelen. Uppstarten blev dock svårroddad med olika lektionstider och scheman. ",
+    "description": "Ett stort tack till er elever som kämpat med att få ihop era spel. Upplägget blev lite stukat och jag (Jens) som lärare tar med mig att lite ändringar behöver ske. Vi hade otroliga ambitioner i början, men tid och komplexitet satte lite käppar i hjulet. Vi körde ännu ett år på den egna spelmotorn men det var inte utan problem.",
+    "games": [
+        {
+            "team": "Gulliga tomtar",
+            "creators": "Axel Jakobsson",
+            "title": "Deadmoves",
+            "description": "Döda nissar i detta spännande spelet!",
+            "image": "axel-j.png",
+            "url": "https://axeljakobsson.github.io/dead-moves/",
+            "git": "https://github.com/AxelJakobsson/dead-moves"
+        },
+        {
+            "team": "Saltade söndagsseglare",
+            "creators": "Daniel",
+            "title": "Spelutveckling grunka",
+            "description": "Lita på mig, du vill inte spela detta men om du inte tror mig be my guest",
+            "image": "daniel.png",
+            "url": "https://uraniumcooler.github.io/TE22-Spel/",
+            "git": "https://github.com/UraniumCooler/TE22-Spel"
+        },
+        {
+            "team": "Explosiva sniglar",
+            "creators": "Henrik",
+            "title": "Tomte",
+            "description": "Tomte måste hitta hem",
+            "image": "henrico.png",
+            "url": "https://itshenrico.github.io/te22-spelkod/",
+            "git": "https://github.com/ItsHenrico/te22-spelkod"
+        },
+        {
+            "team": "Uråldriga bläckfiskar",
+            "creators": "Herman",
+            "title": "XXXmas",
+            "description": "En spännande date med rudolf som har hela 4 slut att upptäcka!",
+            "image": "hermano.png",
+            "url": "https://hermanwesterlund.github.io/te22-spelkod/",
+            "git": "https://github.com/HermanWesterlund/te22-spelkod"
+        },
+        {
+            "team": "Gulliga tomtar",
+            "creators": "Josua",
+            "title": "BreakingPenguin",
+            "description": "BreakingPenguin är ett spel inspirerad av break-dancing tävlingen vid de Olympiska spelen 2024. Spelet går ut på att dansa tills nissarna inte orkar kolla längre så att tomten inte sätter stop på spektakelt.",
+            "image": "j.png",
+            "git": "https://windowdorrslide.github.io/deadmoves/",
+            "url": "https://windowdorrslide.github.io/deadmoves/"
+        },
+        {
+            "team": "Gasiga buggbjörnar",
+            "creators": "Marcus",
+            "title": "IceBjorn Simulator",
+            "description": "Live with the Icebjorns!",
+            "image": "marcus.png",
+            "url": "https://supersimpen.github.io/spel-projekt-version2/",
+            "git": "https://github.com/Supersimpen/spel-projekt-version2"
+        },
+        {
+            "team": "Slaskande enhörningar",
+            "creators": "Nemo Sjöström",
+            "title": "Orc Survivors",
+            "description": "Du ska försöka överleva orcer som jagar dig, men spelet är inte riktigt klart ännu så just nu kan man bara förlora",
+            "image": "nemo.png",
+            "url": "https://nempan.github.io/spelkod/",
+            "git": "https://github.com/Nempan/spelkod"
+        },
+        {
+            "team": "Explosiva sniglar",
+            "creators": "Olle",
+            "title": "unnamed",
+            "description": "Detta spel är en smännande utmaning och ett fantastisk äventyr som erbjuder både svåra banor och en spännande historia",
+            "image": "olle.png",
+            "url": "https://butterdogo.github.io/te22-spelkod-1/",
+            "git": "https://github.com/butterdogo/te22-spelkod-1"
+        },
+        {
+            "team": "Uråldriga bläckfiskar",
+            "creators": "Oscar Tafvelin",
+            "title": "XXXMas",
+            "description": "Upplev drömmen att dejta tomtens främsta ren, Rudolf!",
+            "image": "oscar.png",
+            "url": "https://orskitorski.github.io/te22-spelkod/",
+            "git": "https://github.com/Orskitorski/te22-spelkod/tree/scenes"
+        },
+        {
+            "team": "Saltade söndagsseglare",
+            "creators": "Vincent",
+            "title": "Dinosaur Game-klon med tomte",
+            "description": "Tomten kutar",
+            "image": "vincent.png",
+            "url": "https://walterwhite5.github.io/te22-spel/",
+            "git": "https://github.com/walterwhite5/te22-spel"
+        }
+    ],
+    "teams": [
+        {
+            "team": "Saltade söndagsseglare",
+            "members": [
+                "Liam",
+                "Charlie",
+                "Vincent",
+                "Daniel",
+                "Oliver"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Gulliga tomtar",
+            "members": [
+                "Lo",
+                "Josua",
+                "Axel J",
+                "Alvin"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Uråldriga bläckfiskar",
+            "members": [
+                "Leo",
+                "Paola",
+                "Oscar",
+                "John",
+                "Herman"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Explosiva sniglar",
+            "members": [
+                "Jill",
+                "Emma",
+                "Olle",
+                "Henrik"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Gasiga buggbjörnar",
+            "members": [
+                "Alicia",
+                "Matilda",
+                "Axel W",
+                "Marcus",
+                "Robin"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Slaskande enhörningar",
+            "members": [
+                "Shalome",
+                "Elin",
+                "Elton",
+                "Jakob",
+                "Nemo"
+            ],
+            "concept": "url"
+        }
+    ]
 }
