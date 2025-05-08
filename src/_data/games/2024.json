@@ -82,13 +82,22 @@
             "git": "https://github.com/butterdogo/te22-spelkod-1"
         },
         {
-            "team": "XXXMas",
+            "team": "Uråldriga bläckfiskar",
             "creators": "Oscar Tafvelin",
             "title": "XXXMas",
             "description": "Upplev drömmen att dejta tomtens främsta ren, Rudolf!",
-            "image": "./images/xxxmas_screenshot.png",
+            "image": "oscar.png",
             "url": "https://orskitorski.github.io/te22-spelkod/",
             "git": "https://github.com/Orskitorski/te22-spelkod/tree/scenes"
+        },
+        {
+            "team": "Saltade söndagsseglare",
+            "creators": "Vincent",
+            "title": "?",
+            "description": "Tomten kutar",
+            "image": "vincent.png",
+            "url": "https://walterwhite5.github.io/te22-spel/",
+            "git": "https://github.com/walterwhite5/te22-spel"
         }
     ],
     "teams": [
