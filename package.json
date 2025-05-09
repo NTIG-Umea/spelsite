@@ -29,5 +29,8 @@
         "postcss": "^8.4.5",
         "postcss-cli": "^9.1.0",
         "sass": "^1.45.0"
+    },
+    "devDependencies": {
+        "@zvorak/getimage": "^1.0.5"
     }
 }
