@@ -1,15 +1,58 @@
 {
-  "classes": ["te22"],
-  "year": 2024,
-  "lead": "Ett nytt år och en ny klass. Denna gång är det TE21 som har fått äran att skapa sina egna clickerspel.",
-  "description": "Eleverna jobbade med en färdig mall där de främst behöver skapa ett eget tema och byta namn på saker och ting. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
-  "clickers": [
-    {
-      "title": "Lyssnaren",
-      "tagline": "En klicker där du aldrig är säker om det är spelet eller rösterna",
-      "url": "https://alfredengberg.github.io/wu1-clicker-voices/",
-      "git": "https://github.com/AlfredEngberg/wu1-clicker-voices",
-      "author": "Alfred Engberg",
-      "image": "1dbfa60f59e685389fd521e5bd85987e.png"
-    } ]
+    "classes": [
+        "te22"
+    ],
+    "year": 2024,
+    "lead": "Ett nytt år och en ny klass. Denna gång är det TE21 som har fått äran att skapa sina egna clickerspel.",
+    "description": "Eleverna jobbade med en färdig mall där de främst behöver skapa ett eget tema och byta namn på saker och ting. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
+    "clickers": [
+        {
+            "title": "Punch da rock",
+            "tagline": "En arg grabb slår en sten för att få stenar",
+            "url": "https://alvingranvik.github.io/Clicker/",
+            "git": "https://github.com/AlvinGranvik/Clicker",
+            "author": "Alvin Granvik",
+            "image": "f77d4e55c574bff9c00fd8a0807225d4.png"
+        },
+        {
+            "title": "Rymdkolonisering",
+            "tagline": "Klicka för att kolonisera månen och skapa fabriker",
+            "url": "https://axeljakobsson.github.io/wu1-clicker/",
+            "git": "https://github.com/AxelJakobsson/wu1-clicker",
+            "author": "Axel Jakobsson",
+            "image": "961adcd8afefe1a4fc7bb6b704434aad.png"
+        },
+        {
+            "title": "CLICKER",
+            "tagline": "Man klickar på cirkel, nummer blir större",
+            "url": "https://itshenrico.github.io/wu1-clicker/",
+            "git": "https://github.com/ItsHenrico/wu1-clicker",
+            "author": "Henrik Forsberg",
+            "image": "296cf12b6e5c94bde4a7274fe3bfd671.png"
+        },
+        {
+            "title": "Björfärs insamlaren",
+            "tagline": "Samla in björfärs åt björnarna",
+            "url": "https://hermanwesterlund.github.io/wu2-clicker/",
+            "git": "https://github.com/HermanWesterlund/wu2-clicker",
+            "author": "Herman Vesterlund",
+            "image": "a4f0185eee1d7299a7c98eb6d679ca3d.png"
+        },
+        {
+            "title": "Big Bass",
+            "tagline": "Fånga massa fiskar tillsammans med din togna båt",
+            "url": "https://nempan.github.io/wu1-clicker/",
+            "git": "https://github.com/Nempan/wu1-clicker",
+            "author": "Nemo S",
+            "image": "f35ace69cae2c042d7b1b018ecc1ebef.png"
+        },
+        {
+            "title": "Klegg-Klicker",
+            "tagline": "Hur kleggig kan man vara? Ta reda på det med hjälp av \"Klegg-Klicker\"!",
+            "url": "https://orskitorski.github.io/WU2-clicker/",
+            "git": "https://github.com/Orskitorski/WU2-clicker",
+            "author": "Oscar Tafvelin",
+            "image": "7d6fa8d3a4e564fec4633b9dbbcc3fff.png"
+        }
+    ]
 }

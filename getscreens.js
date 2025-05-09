@@ -1,9 +1,9 @@
-const getimage = require('@zvorak/getimage');
+import getimage from "@zvorak/getimage"
 
 process.setMaxListeners(0);
 
 const urls = [
-    'https://nonsensicalquagga.github.io/wu1-clicker/',
+    ""
 ];
 const previewPath = './src/previews';
 
