@@ -3,8 +3,8 @@
         "te22"
     ],
     "year": 2024,
-    "lead": "Ett nytt år och en ny klass. Denna gång är det TE21 som har fått äran att skapa sina egna clickerspel.",
-    "description": "Eleverna jobbade med en färdig mall där de främst behöver skapa ett eget tema och byta namn på saker och ting. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
+    "lead": "En liten twist det här året då te22 inte hade gjort en clicker i webbutveckling 1, så vi körde den som introduktion till programmering med javascript i webbutveckling 2.",
+    "description": "Eleverna jobbade utifrån samma mall som eleverna använt i webbutveckling 1. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
     "clickers": [
         {
             "title": "Punch da rock",
