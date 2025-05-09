@@ -9,6 +9,7 @@
         <meta name="google-site-verification" content="SXpq_LM2v4qlpZgEldVf3Oi9vRWnIJM8iNVq1RzgNeQ" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>
+            {{ meta.title | log }}
         {% if page.url == '/' %}
             {{ meta.title }}
         {% else %}

@@ -1,0 +1,15 @@
+{
+  "classes": ["te22"],
+  "year": 2024,
+  "lead": "Ett nytt år och en ny klass. Denna gång är det TE21 som har fått äran att skapa sina egna clickerspel.",
+  "description": "Eleverna jobbade med en färdig mall där de främst behöver skapa ett eget tema och byta namn på saker och ting. Du hittar mallen på [GitHub](https://github.com/jensadev/wu1-clicker).",
+  "clickers": [
+    {
+      "title": "Lyssnaren",
+      "tagline": "En klicker där du aldrig är säker om det är spelet eller rösterna",
+      "url": "https://alfredengberg.github.io/wu1-clicker-voices/",
+      "git": "https://github.com/AlfredEngberg/wu1-clicker-voices",
+      "author": "Alfred Engberg",
+      "image": "1dbfa60f59e685389fd521e5bd85987e.png"
+    } ]
+}
