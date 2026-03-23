@@ -1,7 +1,98 @@
 {
-  "classes": ["te23"],
-  "year": 2025,
-  "lead": "Dags igen. Clickers kommer!",
-  "description": "",
-  "clickers": []
+    "classes": [
+        "te23"
+    ],
+    "year": 2025,
+    "lead": "Clickersarna är tillbaka! Här är en samling som behöver uppdateras något, gör en pull request är du snäll!",
+    "description": "",
+    "clickers": [
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://sandmanmaybete23.github.io/wu1-clicker/",
+            "git": "",
+            "author": "Billy",
+            "image": "1cd0fcb82e31c7fb82ac1ddc7b105316.png"
+        },
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://rasmuseriksson.github.io/wu1-clicker/",
+            "git": "",
+            "author": "Rasmus",
+            "image": "b4f6264f3f909bc726b5f9490a93d8de.png"
+        },
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://kevin-edin.github.io/wu1-clicker/",
+            "git": "",
+            "author": "Kevin",
+            "image": "1913a1d22243b6707e0d47278c483fda.png"
+        },
+        {
+            "title": "",
+            "tagline": "Fixa https!",
+            "url": "http://ashpy.me/clicker",
+            "git": "",
+            "author": "Ash",
+            "image": "1370445a75b10bdb22e5946b62373064.png"
+        },
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://addeballe.github.io/wu1-clicker/",
+            "git": "",
+            "author": "Adrian",
+            "image": "2a30b3a5e80a866cb06fff7fac932666.png"
+        },
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://leojoki.github.io/flopminclicker/",
+            "git": "",
+            "author": "Leo",
+            "image": "e102091e9fd842b962eeec2dd245e148.png"
+        },
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://olivereklund.github.io/wu1-clicker",
+            "git": "",
+            "author": "Oliver",
+            "image": "68ff57143de9e2052c93ec4034c6141c.png"
+        },
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://shadowninja71.github.io/wu1-clicker/",
+            "git": "",
+            "author": "Viktor",
+            "image": "1d71bad9bcab4759ce29559e255ea237.png"
+        },
+        {
+            "title": "",
+            "tagline": "",
+            "url": "https://tirokoii.github.io/Slimeperia/",
+            "git": "",
+            "author": "Tilli",
+            "image": "f67dd6c67dfaa09b9a25bfef8c8b9506.png"
+        },
+                {
+            "title": "",
+            "tagline": "",
+            "url": "https://willepille69xx.github.io/wu1-clicker/",
+            "git": "",
+            "author": "William",
+            "image": "f0a9183ff053ab16308e467f55ec6429.png"
+        },
+                {
+            "title": "",
+            "tagline": "",
+            "url": "https://elamin2.github.io/wu1-clicker",
+            "git": "",
+            "author": "Elamin",
+            "image": "a4ea705dd603244ec9ac5427f4cd4b08.png"
+        }
+    ]
 }
