@@ -1,11 +1,11 @@
 {% set gid = g.title | slug + "--" + g.creators | listCreators | slug %}
 <li class="gamecard flow" id="{{ gid }}">
     {% if g.image %}
-    {% if g.team %}
-        <img eleventy:widths="400" src="/img/{{ game.year }}/{{ g.team | slug }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
-    {% else %}
-        <img eleventy:widths="400" src="/img/{{ game.year }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
-    {% endif %}
+        {% if g.team %}
+            <img eleventy:widths="400" src="/img/{{ game.year }}/{{ g.team | slug }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
+        {% else %}
+            <img eleventy:widths="400" src="/img/{{ game.year }}/{{ g.image }}" alt="Skärmdump av spelet {{ g.title }}.">
+        {% endif %}
     {% endif %}
     <header>
       <h3>
@@ -20,14 +20,14 @@
     </p>
     {% endif %}
     {% if g.team %}
-    {% set team = game.teams | getTeam(g.team) %}
-    <p>Konceptet är utvecklat av <strong class="gamecard__teamname">
-            {{ team.team }}</strong>:
-        <span>{{ team.members | listCreators }}</span>.
-    </p>
+        {% set team = game.teams | getTeam(g.team) %}
+        <p>Konceptet är utvecklat av <strong class="gamecard__teamname">
+                {{ team.team }}</strong>:
+            <span>{{ team.members | listCreators }}</span>.
+        </p>
     {% endif %}
     {% if g.git %}
-    <p>Koden finns på <a href="{{ g.git }}" target="_blank">GitHub</a>.</p>
+        <p>Koden finns på <a href="{{ g.git }}" target="_blank">GitHub</a>.</p>
     {% endif %}
 </div>
 <footer>

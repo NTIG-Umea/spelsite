@@ -1,0 +1,132 @@
+{
+    "classes": [
+        "es23",
+        "te23",
+        "te4"
+    ],
+    "year": 2026,
+    "theme": "Att växa, growth",
+    "engine": "Egen",
+    "lead": "I år slog vi på stort och gjorde om konceptet helt. Eleverna fick arbeta i grupper på 7-9 personer och arbeta med spelet under 2 veckors tid.",
+    "description": "Varje grupp hade elever från estet och teknik som var ansvariga för grafik och kod. De blev i sin tur coachade av projektledare från te4 som fick visa sina ledaregenskaper genom att leda gruppen i ett agilt arbetssätt. Det blev två väldigt intensiva vecka där vi avslutade med en releasefest där vi hade besök av Turborilla och Futuregames bland annat från spelbranschen. Vi lärare är jättenöjda och hoppas att alla hade lika kul som vi!",
+    "games": [
+        {
+            "team": "Saltade bläckfiskar",
+            "creators": ["Hilma",
+                "Axel",
+                "Rasmus",
+                "Leo",
+                "Oliver"
+            ],
+            "title": "Aggroculture",
+            "description": "",
+            "image": "aggro.png",
+            "url": "https://leojoki.github.io/Spelsylt-Aggroculture",
+            "git": "https://github.com/LeoJoki/Spelsylt-Aggroculture"
+        },
+        {
+            "team": "Hala gnagare",
+            "creators": [
+                "Emma",
+                "William",
+                "Ash",
+                "Kevin",
+                "Adrian",
+                "William"
+            ],
+            "title": "Väkst",
+            "description": "",
+            "image": "väkst.png",
+            "url": "http://ashpy.me/Project-Tree/",
+            "git": ""
+        },
+        {
+            "team": "Förtappade grävlingar",
+            "creators": [
+                "Kevin",
+                "Oliver",
+                "Noak",
+                "Billy",
+                "Tilli",
+                "Viktor"
+            ],
+            "title": "SlimeGame",
+            "description": "Platformer om en slime som kan bli större eller mindre under spelets gång. Den kan samla slime för att växa eller lämna sin slime för att krympa.",
+            "image": "blob.png",
+            "url": "https://xurasta.github.io/SpelSylt2026",
+            "git": ""
+        },
+        {
+            "team": "Explosiva sniglar",
+            "creators": [
+                "Elias",
+                "Nanna",
+                "Isak",
+                "Lowe",
+                "Vilgot"
+            ],
+            "title": "?",
+            "description": "",
+            "image": "lo.png",
+            "url": "https://loweezzt.github.io/Spelutveckling-group",
+            "git": "https://github.com/Loweezzt/Spelutveckling-group"
+        }
+    ],
+    "teams": [
+        {
+            "team": "Saltade bläckfiskar",
+            "members": [
+                "Hilma",
+                "Axel",
+                "Rasmus",
+                "Leo",
+                "Oliver",
+                "Olle",
+                "Herman"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Hala gnagare",
+            "members": [
+                "Emma",
+                "William",
+                "Ash",
+                "Kevin",
+                "Adrian",
+                "William",
+                "Robin",
+                "Kevin"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Explosiva sniglar",
+            "members": [
+                "Elias",
+                "Nanna",
+                "Isak",
+                "Lowe",
+                "Vilgot",
+                "Oscar",
+                "Alvin"
+            ],
+            "concept": "url"
+        },
+        {
+            "team": "Förtappade grävlingar",
+            "members": [
+                "Kevin",
+                "Oliver",
+                "Noak",
+                "Billy",
+                "Tilli",
+                "Viktor",
+                "Elamin",
+                "Oliver",
+                "Axel"
+            ],
+            "concept": "url"
+        }
+    ]
+}
